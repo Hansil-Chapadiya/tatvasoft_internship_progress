@@ -1,0 +1,285 @@
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\appsettings.json
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.exe
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.deps.json
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.runtimeconfig.json
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.pdb
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.csproj.AssemblyReference.cache
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.AssemblyInfoInputs.cache
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.AssemblyInfo.cs
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.csproj.CoreCompileInputs.cache
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.sourcelink.json
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets\msbuild.Mission.Api.Microsoft.AspNetCore.StaticWebAssets.props
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets\msbuild.build.Mission.Api.props
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildMultiTargeting.Mission.Api.props
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets\msbuild.buildTransitive.Mission.Api.props
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.pack.json
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\scopedcss\bundle\Mission.Api.styles.css
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission..D685B158.Up2Date
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.dll
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\refint\Mission.Api.dll
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.pdb
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.genruntimeconfig.cache
+D:\Summer Internship 2025\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Humanizer.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Npgsql.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.CodeDom.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\System.Text.Json.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Entities.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Entities.pdb
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Repositories.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Services.dll
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Repositories.pdb
+D:\Summer Internship 2025\Mission\Mission.Api\bin\Debug\net8.0\Mission.Services.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\appsettings.Development.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\appsettings.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.staticwebassets.endpoints.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.exe
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.deps.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.runtimeconfig.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Api.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Humanizer.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Build.Locator.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.CSharp.Workspaces.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.CodeAnalysis.Workspaces.MSBuild.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Design.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.EntityFrameworkCore.Relational.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Caching.Memory.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.DependencyModel.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Logging.Abstractions.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Options.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.OpenApi.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mono.TextTemplating.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Npgsql.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.CodeDom.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.AttributedModel.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Convention.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Hosting.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.Runtime.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Composition.TypedParts.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.IO.Pipelines.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Text.Encodings.Web.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\System.Text.Json.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.CSharp.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\cs\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\de\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\es\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\fr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\it\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ja\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ko\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pl\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\pt-BR\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\ru\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\tr\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hans\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\zh-Hant\Microsoft.CodeAnalysis.Workspaces.MSBuild.BuildHost.resources.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Entities.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Repositories.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Services.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Entities.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Repositories.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Mission.Services.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.csproj.AssemblyReference.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\rpswa.dswa.cache.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.GeneratedMSBuildEditorConfig.editorconfig
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.AssemblyInfoInputs.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.AssemblyInfo.cs
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.csproj.CoreCompileInputs.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cs
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.MvcApplicationPartsAssemblyInfo.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.sourcelink.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\rjimswa.dswa.cache.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\scopedcss\bundle\Mission.Api.styles.css
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.json.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.development.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission..D685B158.Up2Date
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\refint\Mission.Api.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.genruntimeconfig.cache
+D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll

@@ -1,0 +1,30 @@
+D:\Summer Internship 2025\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.deps.json
+D:\Summer Internship 2025\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.runtimeconfig.json
+D:\Summer Internship 2025\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.dll
+D:\Summer Internship 2025\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.pdb
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.AssemblyReference.cache
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfoInputs.cache
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfo.cs
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.CoreCompileInputs.cache
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.sourcelink.json
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.dll
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\refint\Mission.Entities.dll
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.pdb
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.genruntimeconfig.cache
+D:\Summer Internship 2025\Mission\Mission.Entities\obj\Debug\net8.0\ref\Mission.Entities.dll
+D:\TatvaSoft-Intership\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.deps.json
+D:\TatvaSoft-Intership\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.runtimeconfig.json
+D:\TatvaSoft-Intership\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.dll
+D:\TatvaSoft-Intership\Mission\Mission.Entities\bin\Debug\net8.0\Mission.Entities.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.AssemblyReference.cache
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.GeneratedMSBuildEditorConfig.editorconfig
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfoInputs.cache
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.AssemblyInfo.cs
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.csproj.CoreCompileInputs.cache
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.sourcelink.json
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.dll
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\refint\Mission.Entities.dll
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.pdb
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\Mission.Entities.genruntimeconfig.cache
+D:\TatvaSoft-Intership\Mission\Mission.Entities\obj\Debug\net8.0\ref\Mission.Entities.dll
