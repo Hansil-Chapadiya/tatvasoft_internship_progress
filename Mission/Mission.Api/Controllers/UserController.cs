@@ -100,7 +100,7 @@ namespace Mission.Api.Controllers
             });
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpGet("All")]
         public IActionResult GetAllUsers()
         {
@@ -128,7 +128,7 @@ namespace Mission.Api.Controllers
             });
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpDelete("Delete/{id}")]
         public IActionResult DeleteUser(int id)
         {
