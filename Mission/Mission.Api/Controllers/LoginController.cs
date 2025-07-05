@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using Mission.Services.Helper;
 using Mission.Services.IServices;
 
 namespace Mission.Api.Controllers
@@ -30,10 +31,12 @@ namespace Mission.Api.Controllers
     public class LoginController : ControllerBase
     {
         private readonly ILoginService _loginService;
+        private readonly IConfiguration _config;
 
-        public LoginController(ILoginService loginService)
+        public LoginController(ILoginService loginService, IConfiguration config)
         {
             _loginService = loginService;
+            _config = config;
         }
 
         [HttpPost("Login")]
@@ -49,10 +52,14 @@ namespace Mission.Api.Controllers
                 });
             }
 
+            var secret = _config["JwtSettings:Secret"];
+            var token_ = TokenHelper.GenerateJwtToken(user.Id.ToString(), user.EmailAddress, user.UserType, secret);
+
             return Ok(new
             {
                 success = true,
                 message = "Login successful",
+                token = token_,
                 data = new
                 {
                     user.Id,

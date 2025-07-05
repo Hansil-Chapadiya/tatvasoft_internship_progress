@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using Mission.Entities.context;
 using Mission.Entities.DTOs;
 using Mission.Entities.Entities;
@@ -17,12 +18,17 @@ namespace Mission.Api.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost("Add")]
         public IActionResult AddUser([FromBody] AddUserDto userDto)
         {
             if (_context.Users.Any(u => u.EmailAddress == userDto.EmailAddress))
             {
-                return BadRequest("User with this email already exists.");
+                return BadRequest(new
+                {
+                    success = false,
+                    message = "User with this email already exists."
+                });
             }
 
             var newUser = new User
@@ -42,9 +48,11 @@ namespace Mission.Api.Controllers
             _context.Users.Add(newUser);
             _context.SaveChanges();
 
-            return Ok("User added successfully.");
+            return Ok(new
+            {
+                success = true,
+                message = "User added successfully."
+            });
         }
     }
-
-
 }
