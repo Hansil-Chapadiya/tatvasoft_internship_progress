@@ -283,3 +283,5 @@ D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\refint\Mission.Api.d
 D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.pdb
 D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\Mission.Api.genruntimeconfig.cache
 D:\TatvaSoft-Intership\Mission\Mission.Api\obj\Debug\net8.0\ref\Mission.Api.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\TatvaSoft-Intership\Mission\Mission.Api\bin\Debug\net8.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll

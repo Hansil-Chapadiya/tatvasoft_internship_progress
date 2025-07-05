@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Mission.Entities")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+67b52d5c4fcc05119dec4ab2510cb7b4a79f1d21")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8423c2071ee0ece09bc14e6e9cc9581459c9c3f6")]
 [assembly: System.Reflection.AssemblyProductAttribute("Mission.Entities")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Mission.Entities")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
