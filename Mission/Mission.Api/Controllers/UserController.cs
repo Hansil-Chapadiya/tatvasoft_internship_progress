@@ -54,5 +54,51 @@ namespace Mission.Api.Controllers
                 message = "User added successfully."
             });
         }
+
+        [Authorize(Roles = "admin")]
+        [HttpPut("Update")]
+        public IActionResult UpdateUser([FromBody] UpdateUserDto dto)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == dto.Id && !u.IsDeleted);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    success = false,
+                    message = "User not found."
+                });
+            }
+
+            user.FirstName = dto.FirstName;
+            user.LastName = dto.LastName;
+            user.PhoneNumber = dto.PhoneNumber;
+            user.UserImage = dto.UserImage;
+            user.ModifiedDate = DateTime.UtcNow;
+
+            if (!string.IsNullOrEmpty(dto.Password))
+            {
+                user.Password = PasswordHasher.HashPassword(dto.Password);
+            }
+
+            _context.Users.Update(user);
+            _context.SaveChanges();
+
+            return Ok(new
+            {
+                success = true,
+                message = "User updated successfully.",
+                data = new
+                {
+                    user.Id,
+                    user.FirstName,
+                    user.LastName,
+                    user.EmailAddress,
+                    user.PhoneNumber,
+                    user.UserImage,
+                    user.ModifiedDate
+                }
+            });
+        }
+
     }
 }

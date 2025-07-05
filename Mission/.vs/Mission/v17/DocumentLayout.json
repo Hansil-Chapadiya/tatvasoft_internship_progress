@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\TatvaSoft-Intership\\Mission\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\dtos\\updateuserdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -21,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{1F41B937-2390-4EFA-9175-33B9D8A7A22F}|Mission.Services\\Mission.Services.csproj|d:\\tatvasoft-intership\\mission\\mission.services\\helper\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1F41B937-2390-4EFA-9175-33B9D8A7A22F}|Mission.Services\\Mission.Services.csproj|solutionrelative:mission.services\\helper\\tokenhelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1F41B937-2390-4EFA-9175-33B9D8A7A22F}|Mission.Services\\Mission.Services.csproj|d:\\tatvasoft-intership\\mission\\mission.services\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -102,7 +106,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -113,38 +117,21 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "Mission.Services\\Services\\LoginService.cs",
-              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Services\\LoginService.cs",
-              "RelativeToolTip": "Mission.Services\\Services\\LoginService.cs",
-              "ViewState": "AgIAAC4AAAAAAAAAAAAYwCUAAAATAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAAA6AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T06:40:00.28Z",
+              "WhenOpened": "2025-07-05T10:43:09.535Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\LoginController.cs",
-              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Mission.Api\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-04T06:43:43.75Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "ILoginRepository.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Repositories\\IRepositories\\ILoginRepository.cs",
               "RelativeDocumentMoniker": "Mission.Repositories\\IRepositories\\ILoginRepository.cs",
@@ -157,7 +144,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "ILoginService.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\IServices\\ILoginService.cs",
               "RelativeDocumentMoniker": "Mission.Services\\IServices\\ILoginService.cs",
@@ -170,20 +157,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "Mission.Api\\Controllers\\UserController.cs",
               "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\UserController.cs",
               "RelativeToolTip": "Mission.Api\\Controllers\\UserController.cs",
-              "ViewState": "AgIAABMAAAAAAAAAAAAQwDUAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAxwEMAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T03:03:58.713Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Program.cs",
               "RelativeDocumentMoniker": "Mission.Api\\Program.cs",
@@ -196,33 +183,63 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "TokenHelper.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Helper\\TokenHelper.cs",
               "RelativeDocumentMoniker": "Mission.Services\\Helper\\TokenHelper.cs",
               "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Helper\\TokenHelper.cs",
               "RelativeToolTip": "Mission.Services\\Helper\\TokenHelper.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAgAAAAQAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T09:38:17.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\appsettings.json",
               "RelativeDocumentMoniker": "Mission.Api\\appsettings.json",
               "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\appsettings.json",
               "RelativeToolTip": "Mission.Api\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAC7AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-07-04T05:49:08.099Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 5,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Mission.Api\\Controllers\\LoginController.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Mission.Api\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAADQAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:43:43.75Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Mission.Services\\Services\\LoginService.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Services\\LoginService.cs",
+              "RelativeToolTip": "Mission.Services\\Services\\LoginService.cs",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAYwCUAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-04T06:40:00.28Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "PasswordHasher.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Helper\\PasswordHasher.cs",
               "RelativeDocumentMoniker": "Mission.Services\\Helper\\PasswordHasher.cs",
@@ -235,7 +252,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "LoginRepository.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Repositories\\Repositories\\LoginRepository.cs",
               "RelativeDocumentMoniker": "Mission.Repositories\\Repositories\\LoginRepository.cs",
@@ -248,7 +265,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Mission.Api\\Properties\\launchSettings.json",
@@ -261,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "MissionDbContextModelSnapshot.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Migrations\\MissionDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Migrations\\MissionDbContextModelSnapshot.cs",
@@ -274,7 +291,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Mission.Entities.csproj",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Mission.Entities.csproj",
               "RelativeDocumentMoniker": "Mission.Entities\\Mission.Entities.csproj",
@@ -287,7 +304,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserDto.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UserDto.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\UserDto.cs",
@@ -300,7 +317,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "20250704062329_InitialCreate.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Migrations\\20250704062329_InitialCreate.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Migrations\\20250704062329_InitialCreate.cs",
@@ -313,7 +330,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "20250704171424_Restart.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Migrations\\20250704171424_Restart.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Migrations\\20250704171424_Restart.cs",
@@ -326,7 +343,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "User.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\User.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\User.cs",
@@ -339,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Mission.Services.csproj",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Services\\Mission.Services.csproj",
               "RelativeDocumentMoniker": "Mission.Services\\Mission.Services.csproj",
@@ -352,7 +369,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "appsettings.Development.json",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\appsettings.Development.json",
               "RelativeDocumentMoniker": "Mission.Api\\appsettings.Development.json",
@@ -365,7 +382,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Mission.Api.csproj",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Mission.Api.csproj",
               "RelativeDocumentMoniker": "Mission.Api\\Mission.Api.csproj",
@@ -378,7 +395,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "MissionDbContext.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\context\\MissionDbContext.cs",
@@ -391,7 +408,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Base.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Base.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Base.cs",
@@ -404,7 +421,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "WeatherForecastController.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\WeatherForecastController.cs",
               "RelativeDocumentMoniker": "Mission.Api\\Controllers\\WeatherForecastController.cs",
