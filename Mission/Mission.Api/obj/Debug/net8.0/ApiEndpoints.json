@@ -38,6 +38,16 @@
   },
   {
     "ContainingType": "Mission.Api.Controllers.UserController",
+    "Method": "GetAllUsers",
+    "RelativePath": "api/User/All",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.UserController",
     "Method": "UpdateUser",
     "RelativePath": "api/User/Update",
     "HttpMethod": "PUT",

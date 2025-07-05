@@ -100,5 +100,33 @@ namespace Mission.Api.Controllers
             });
         }
 
+        [Authorize(Roles = "admin")]
+        [HttpGet("All")]
+        public IActionResult GetAllUsers()
+        {
+            var users = _context.Users
+                .Where(u => !u.IsDeleted)
+                .Select(u => new
+                {
+                    u.Id,
+                    u.FirstName,
+                    u.LastName,
+                    u.EmailAddress,
+                    u.PhoneNumber,
+                    u.UserType,
+                    u.UserImage,
+                    u.CreatedDate,
+                    u.ModifiedDate
+                })
+                .ToList();
+
+            return Ok(new
+            {
+                success = true,
+                message = "User list fetched successfully.",
+                data = users
+            });
+        }
+
     }
 }
