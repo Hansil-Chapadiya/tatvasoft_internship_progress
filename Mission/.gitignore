@@ -1,0 +1,30 @@
+# ===== Visual Studio / .NET Artifacts =====
+.vs/
+bin/
+obj/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# ===== Build / Publish Output =====
+publish/
+out/
+
+# ===== OS Generated Files =====
+.DS_Store
+Thumbs.db
+
+# ===== Secrets / Configs =====
+appsettings.Development.json   # Local dev config (DON’T push)
+appsettings.Local.json         # If exists
+.env                           # If using dotenv pattern
+
+# ===== Logs =====
+*.log
+
+# ===== Rider / JetBrains =====
+.idea/
+
+# ===== Docker (Optional) =====
+docker-compose.override.yml
