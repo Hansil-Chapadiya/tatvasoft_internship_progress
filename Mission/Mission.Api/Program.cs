@@ -26,6 +26,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<MissionDbContext>();
+    db.Database.Migrate(); 
 
     if (!db.Users.Any(u => u.EmailAddress == "admin@tatvasoft.com"))
     {
