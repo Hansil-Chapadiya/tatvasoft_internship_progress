@@ -100,7 +100,7 @@ namespace Mission.Api.Controllers
             });
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpGet("All")]
         public IActionResult GetAllUsers()
         {
@@ -125,6 +125,33 @@ namespace Mission.Api.Controllers
                 success = true,
                 message = "User list fetched successfully.",
                 data = users
+            });
+        }
+
+        //[Authorize(Roles = "admin")]
+        [HttpDelete("Delete/{id}")]
+        public IActionResult DeleteUser(int id)
+        {
+            var user = _context.Users.FirstOrDefault(u => u.Id == id && !u.IsDeleted);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    success = false,
+                    message = "User not found or already deleted."
+                });
+            }
+
+            user.IsDeleted = true;
+            user.ModifiedDate = DateTime.UtcNow;
+
+            _context.Users.Update(user);
+            _context.SaveChanges();
+
+            return Ok(new
+            {
+                success = true,
+                message = $"User with ID {id} deleted successfully."
             });
         }
 
