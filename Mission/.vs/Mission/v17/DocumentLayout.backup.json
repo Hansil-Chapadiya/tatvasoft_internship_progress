@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "D:\\TatvaSoft-Intership\\Mission\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\dtos\\addmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\dtos\\addmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|d:\\tatvasoft-intership\\mission\\mission.api\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B3060286-072E-46C3-A1E8-71A916395167}|Mission.Api\\Mission.Api.csproj|solutionrelative:mission.api\\controllers\\missioncontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\dtos\\addmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\dtos\\addmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\dtos\\getmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\dtos\\getmissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\dtos\\updatemissiondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -27,24 +43,12 @@
       "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\context\\missiondbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\mission.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\city.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\missiontheme.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|solutionrelative:mission.entities\\entities\\skill.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{35148984-D972-49B5-9CC3-03A5199BFCF2}|Mission.Entities\\Mission.Entities.csproj|d:\\tatvasoft-intership\\mission\\mission.entities\\migrations\\20250705181026_addmissionentities.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -58,7 +62,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 7,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -69,25 +73,24 @@
               "Name": "ST:131:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UpdateUserDto.cs",
-              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
-              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
-              "RelativeToolTip": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T03:59:54.732Z",
-              "EditorCaption": ""
-            },
-            {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
+              "Title": "GetMissionDto.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\GetMissionDto.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\GetMissionDto.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\GetMissionDto.cs",
+              "RelativeToolTip": "Mission.Entities\\DTOs\\GetMissionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T04:13:40.67Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UpdateMissionDto.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateMissionDto.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\UpdateMissionDto.cs",
@@ -95,12 +98,11 @@
               "RelativeToolTip": "Mission.Entities\\DTOs\\UpdateMissionDto.cs",
               "ViewState": "AgIAAAUAAAAAAAAAAAAswBgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T03:30:08.569Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T03:30:08.569Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "20250705181026_AddMissionEntities.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Migrations\\20250705181026_AddMissionEntities.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Migrations\\20250705181026_AddMissionEntities.cs",
@@ -112,7 +114,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 9,
               "Title": "MissionDbContext.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\context\\MissionDbContext.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\context\\MissionDbContext.cs",
@@ -124,33 +126,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "MissionController.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\MissionController.cs",
               "RelativeDocumentMoniker": "Mission.Api\\Controllers\\MissionController.cs",
               "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Api\\Controllers\\MissionController.cs",
               "RelativeToolTip": "Mission.Api\\Controllers\\MissionController.cs",
-              "ViewState": "AgIAAGUAAAAAAAAAAAAYwFsAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAA1wJMAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T17:54:02.396Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "AddMissionDto.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\AddMissionDto.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\AddMissionDto.cs",
               "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\AddMissionDto.cs",
               "RelativeToolTip": "Mission.Entities\\DTOs\\AddMissionDto.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAwwBcAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T17:53:18.868Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "MissionSkill.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\MissionSkill.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\MissionSkill.cs",
@@ -158,24 +160,11 @@
               "RelativeToolTip": "Mission.Entities\\Entities\\MissionSkill.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T17:48:55.191Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-05T17:48:55.191Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Skill.cs",
-              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Skill.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Skill.cs",
-              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Skill.cs",
-              "RelativeToolTip": "Mission.Entities\\Entities\\Skill.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T17:48:41.497Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "MissionTheme.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\MissionTheme.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\MissionTheme.cs",
@@ -187,7 +176,43 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 3,
+              "Title": "Mission.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Mission.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Mission.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Mission.cs",
+              "RelativeToolTip": "Mission.Entities\\Entities\\Mission.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAcwDkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T17:46:52.314Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Skill.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Skill.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Skill.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Skill.cs",
+              "RelativeToolTip": "Mission.Entities\\Entities\\Skill.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-05T17:48:41.497Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "UpdateUserDto.cs",
+              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "RelativeDocumentMoniker": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "RelativeToolTip": "Mission.Entities\\DTOs\\UpdateUserDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-06T03:59:54.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
               "Title": "Country.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Country.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Country.cs",
@@ -199,7 +224,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
               "Title": "City.cs",
               "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\City.cs",
               "RelativeDocumentMoniker": "Mission.Entities\\Entities\\City.cs",
@@ -208,18 +233,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-05T17:47:30.183Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Mission.cs",
-              "DocumentMoniker": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Mission.cs",
-              "RelativeDocumentMoniker": "Mission.Entities\\Entities\\Mission.cs",
-              "ToolTip": "D:\\TatvaSoft-Intership\\Mission\\Mission.Entities\\Entities\\Mission.cs",
-              "RelativeToolTip": "Mission.Entities\\Entities\\Mission.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-05T17:46:52.314Z"
             }
           ]
         }

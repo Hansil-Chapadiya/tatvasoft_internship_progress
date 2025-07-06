@@ -56,7 +56,11 @@ namespace Mission.Api.Controllers
         {
             var mission = _context.Missions.FirstOrDefault(m => m.Id == dto.MissionId && !m.IsDeleted);
             if (mission == null)
-                return NotFound("Mission not found.");
+                return NotFound(new
+                {
+                    success = false,
+                    message = "Mission not found"
+                });
 
             // Update basic fields
             mission.MissionTitle = dto.MissionTitle;
@@ -85,7 +89,11 @@ namespace Mission.Api.Controllers
             }
 
             _context.SaveChanges();
-            return Ok("Mission updated successfully.");
+            return Ok(new
+            {
+                success = true,
+                message = "Mission updated successfully"
+            });
         }
 
         [HttpDelete("Delete/{id}")]
