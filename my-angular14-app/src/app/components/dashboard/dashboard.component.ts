@@ -9,6 +9,12 @@ export class DashboardComponent implements OnInit {
 
   constructor() { }
 
+  sidebarCollapsed = true;
+
+  toggleSidebar() {
+    this.sidebarCollapsed = !this.sidebarCollapsed;
+  }
+
   ngOnInit(): void {
   }
 

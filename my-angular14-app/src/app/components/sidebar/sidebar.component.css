@@ -1,0 +1,58 @@
+.sidebar {
+  width: 220px;
+  height: 100vh;
+  background-color: #ffa500;
+  color: white;
+  padding: 20px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  font-family: 'Segoe UI', sans-serif;
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.brand {
+  font-size: 22px;
+  margin-bottom: 30px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 12px 8px;
+  margin: 10px 0;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.2s ease;
+}
+
+li:hover {
+  background-color: #ff8c00;
+}
+
+:host {
+  display: block;
+  width: 220px;
+  background-color: #ffa500;
+  color: white;
+  height: 100vh;
+  position: fixed;
+  left: 0;
+  top: 0;
+  transition: transform 0.3s ease-in-out;
+  z-index: 1000;
+}
+
+/* 👇 For mobile screens */
+@media (max-width: 768px) {
+  :host-context(.sidebar-collapsed) {
+    transform: translateX(-100%);
+  }
+
+  :host-context(.sidebar-expanded) {
+    transform: translateX(0);
+  }
+}

@@ -1,1 +1,8 @@
-<p>dashboard works!</p>
+<div class="dashboard-wrapper" [ngClass]="sidebarCollapsed ? 'sidebar-collapsed' : 'sidebar-expanded'">
+    <button class="hamburger" (click)="toggleSidebar()">&#9776;</button>
+    <app-sidebar [collapsed]="sidebarCollapsed"></app-sidebar>
+
+    <div class="main-content">
+        <!-- Your dashboard content -->
+    </div>
+</div>
