@@ -52,7 +52,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend",
         policy => policy
-            .WithOrigins("https://tatvasoft-internship-progress.vercel.app") //  Add your frontend URL here
+            .WithOrigins("https://tatvasoft-internship-progress.vercel.app", "http://localhost:4200") //  Add your frontend URL here
             .AllowAnyMethod()
             .AllowAnyHeader()
             .AllowCredentials()
@@ -65,7 +65,7 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<MissionDbContext>();
-    db.Database.Migrate(); 
+    db.Database.Migrate();
 
     if (!db.Users.Any(u => u.EmailAddress == "admin@tatvasoft.com"))
     {
