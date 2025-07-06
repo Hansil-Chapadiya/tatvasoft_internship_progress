@@ -9,6 +9,8 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
 
+
+
 var builder = WebApplication.CreateBuilder(args);
 
 
@@ -45,6 +47,18 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddAuthorization();
 
 
+// Allow CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowFrontend",
+        policy => policy
+            .WithOrigins("https://tatvasoft-internship-progress.vercel.app") //  Add your frontend URL here
+            .AllowAnyMethod()
+            .AllowAnyHeader()
+            .AllowCredentials()
+    );
+});
+
 var app = builder.Build();
 
 
@@ -73,12 +87,15 @@ using (var scope = app.Services.CreateScope())
 }
 
 
+
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
     app.UseSwaggerUI();
 }
+app.UseCors("AllowFrontend"); //  IMPORTANT
+
 
 app.UseHttpsRedirection();
 
