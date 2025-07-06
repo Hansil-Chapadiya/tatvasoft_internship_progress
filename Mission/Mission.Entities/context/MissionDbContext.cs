@@ -7,12 +7,20 @@ using System.Net.Security;
 using System.Text;
 using System.Threading.Tasks;
 
+
 namespace Mission.Entities.context
 {
     public class MissionDbContext : DbContext
     {
         public MissionDbContext(DbContextOptions<MissionDbContext> options) : base(options) { }
         public DbSet<User> Users { get; set; }
+
+        public DbSet<Mission.Entities.Entities.Mission> Missions { get; set; }
+        public DbSet<MissionSkill> MissionSkills { get; set; }
+        public DbSet<Skill> Skills { get; set; }
+        public DbSet<City> Cities { get; set; }
+        public DbSet<Country> Countries { get; set; }
+        public DbSet<MissionTheme> MissionThemes { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             AppContext.SetSwitch("Npgsql.EnableLegancyTimestampBehavior", true);

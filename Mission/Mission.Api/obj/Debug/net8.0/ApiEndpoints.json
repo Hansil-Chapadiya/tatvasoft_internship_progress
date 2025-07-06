@@ -21,6 +21,64 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "Mission.Api.Controllers.MissionController",
+    "Method": "AddMission",
+    "RelativePath": "api/Mission/Add",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Mission.Entities.DTOs.AddMissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionController",
+    "Method": "DeleteMission",
+    "RelativePath": "api/Mission/Delete/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionController",
+    "Method": "GetAllMissions",
+    "RelativePath": "api/Mission/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.MissionController",
+    "Method": "UpdateMission",
+    "RelativePath": "api/Mission/Update",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dto",
+        "Type": "Mission.Entities.DTOs.UpdateMissionDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mission.Api.Controllers.UserController",
     "Method": "AddUser",
     "RelativePath": "api/User/Add",
