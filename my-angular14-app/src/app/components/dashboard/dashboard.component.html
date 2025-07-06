@@ -1,8 +1,17 @@
-<div class="dashboard-wrapper" [ngClass]="sidebarCollapsed ? 'sidebar-collapsed' : 'sidebar-expanded'">
+<!-- <div class="dashboard-wrapper" [ngClass]="sidebarCollapsed ? 'sidebar-collapsed' : 'sidebar-expanded'">
     <button class="hamburger" (click)="toggleSidebar()">&#9776;</button>
     <app-sidebar [collapsed]="sidebarCollapsed"></app-sidebar>
 
     <div class="main-content">
-        <!-- Your dashboard content -->
+        <router-outlet></router-outlet>
     </div>
+</div> -->
+<button class="hamburger" (click)="toggleSidebar()">☰</button>
+
+<div class="dashboard-wrapper">
+  <app-sidebar [ngClass]="{ 'active': isSidebarCollapsed }"></app-sidebar>
+
+  <div class="main-content" [ngClass]="{ 'shifted': !isSidebarCollapsed }">
+    <router-outlet></router-outlet>
+  </div>
 </div>
