@@ -1,5 +1,6 @@
 .users-wrapper {
   padding: 20px;
+  font-family: cursive;
 }
 
 .users-header {
@@ -21,28 +22,94 @@
 .users-table {
   width: 100%;
   border-collapse: collapse;
+
 }
 
-.users-table th, .users-table td {
+.users-table th,
+.users-table td {
   padding: 12px;
-  border-bottom: 1px solid #ddd;
+  /* border-bottom: 1px solid #ddd; */
+  border-bottom: 1px solid #ffa500;
   text-align: left;
 }
 
-.edit-btn, .delete-btn {
+/* .edit-btn,
+.delete-btn {
   margin-right: 8px;
   padding: 5px 10px;
   border-radius: 4px;
   border: none;
   cursor: pointer;
+} */
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffa500;
+  font-size: 16px;
+  margin-right: 8px;
 }
 
-.edit-btn {
-  background-color: #007bff;
-  color: white;
+.icon-btn.delete {
+  color: #ffa500;
 }
 
-.delete-btn {
-  background-color: #dc3545;
+
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.modal-box {
+  background-color: white;
+  padding: 20px 30px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.modal-box h3 {
+  color: orange;
+  margin-bottom: 15px;
+}
+
+.modal-box input,
+.modal-box select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 12px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.btn-orange {
+  background-color: orange;
   color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-cancel {
+  background-color: #ccc;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
 }

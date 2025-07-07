@@ -16,8 +16,50 @@ interface User {
 })
 export class UsersComponent implements OnInit {
 
+  showAddUserModal = false;
+
+  newUser = {
+    firstName: '',
+    lastName: '',
+    emailAddress: '',
+    phoneNumber: '',
+    password: '',
+    userImage: '',
+    userType: 'user',
+
+  };
+
+  openModal() {
+    this.showAddUserModal = true;
+  }
+
+  closeModal() {
+    this.showAddUserModal = false;
+    this.resetNewUser();
+  }
+
+  resetNewUser() {
+    this.newUser = {
+      firstName: '',
+      lastName: '',
+      emailAddress: '',
+      phoneNumber: '',
+      password: '',
+      userImage: '',
+      userType: 'user',
+    };
+  }
+
   users: User[] = [];
   constructor(private http: HttpClient) { }
+
+  selectedImage: File | null = null;
+
+  onFileSelected(event: any) {
+    this.selectedImage = event.target.files[0];
+  }
+
+
 
   ngOnInit(): void {
     this.fetchUsers();
@@ -71,7 +113,30 @@ export class UsersComponent implements OnInit {
   }
 
   addUser(): void {
-    // Later show modal or route to Add User page
+    const token = localStorage.getItem('token');
+    if (!token) {
+      console.error('Token not found');
+      return;
+    }
+
+    const headers = {
+      Authorization: `Bearer ${token}`
+    };
+
+    if (this.selectedImage) {
+      this.newUser.userImage = this.selectedImage.name;
+    }
+
+    this.http.post('https://tatvasoft-internship-progress.onrender.com/api/User/Add', this.newUser, { headers })
+      .subscribe({
+        next: (res: any) => {
+          this.fetchUsers(); // Refresh table
+          this.closeModal();
+        },
+        error: (err) => {
+          console.error('Error adding user:', err);
+        }
+      });
     console.log('Add new user clicked!');
   }
 

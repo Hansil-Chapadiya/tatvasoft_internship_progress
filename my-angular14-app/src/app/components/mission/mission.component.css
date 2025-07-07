@@ -1,5 +1,6 @@
 .mission-wrapper {
   padding: 20px;
+  font-family: cursive;
 }
 
 .mission-header {
@@ -25,11 +26,11 @@
 
 .mission-table th, .mission-table td {
   padding: 12px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ffa500;
   text-align: left;
 }
 
-.edit-btn, .delete-btn {
+/* .edit-btn, .delete-btn {
   margin-right: 8px;
   padding: 5px 10px;
   border-radius: 4px;
@@ -45,4 +46,17 @@
 .delete-btn {
   background-color: #dc3545;
   color: white;
+} */
+
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffa500;
+  font-size: 16px;
+  margin-right: 8px;
+}
+
+.icon-btn.delete {
+  color: #ffa500;
 }

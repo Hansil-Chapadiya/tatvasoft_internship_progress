@@ -1,7 +1,7 @@
 <div class="users-wrapper">
   <div class="users-header">
     <h2>Users</h2>
-    <button (click)="addUser()" class="add-btn">+ Add User</button>
+    <button (click)="openModal()" class="add-btn">+ Add User</button>
   </div>
 
   <table class="users-table">
@@ -19,10 +19,39 @@
         <td>{{ user.emailAddress }}</td>
         <td>{{ user.userType }}</td>
         <td>
-          <button (click)="editUser(user)" class="edit-btn">Edit</button>
-          <button (click)="deleteUser(user.id)" class="delete-btn">Delete</button>
+          <button (click)="editUser(user)" class="icon-btn">
+            <i class="fas fa-pen"></i>
+          </button>
+          <button (click)="deleteUser(user.id)" class="icon-btn delete">
+            <i class="fas fa-trash"></i>
+          </button>
         </td>
       </tr>
     </tbody>
   </table>
+
+  <!-- Add User Modal -->
+  <div class="modal-backdrop" *ngIf="showAddUserModal">
+    <div class="modal-box">
+      <h3>Add New User</h3>
+      <form (ngSubmit)="addUser()" #userForm="ngForm">
+        <input type="text" placeholder="First Name" [(ngModel)]="newUser.firstName" name="firstName" required />
+        <input type="text" placeholder="Last Name" [(ngModel)]="newUser.lastName" name="lastName" required />
+        <input type="email" placeholder="Email" [(ngModel)]="newUser.emailAddress" name="emailAddress" required />
+        <input type="password" placeholder="Password" [(ngModel)]="newUser.password" name="password" required />
+        <input type="file" (change)="onFileSelected($event)" name="userImage" accept="image/*" required />
+        <input type="text" placeholder="Phone Number" [(ngModel)]="newUser.phoneNumber" name="phoneNumber" required />
+        <select [(ngModel)]="newUser.userType" name="userType" required>
+          <option value="user">User</option>
+          <option value="admin">Admin</option>
+        </select>
+
+        <div class="modal-actions">
+          <button type="submit" class="btn-orange">Add</button>
+          <button type="button" class="btn-cancel" (click)="closeModal()">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+
 </div>

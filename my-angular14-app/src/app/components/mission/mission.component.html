@@ -1,6 +1,6 @@
 <div class="mission-wrapper">
     <div class="mission-header">
-        <h2>Users</h2>
+        <h2>Missions</h2>
         <button (click)="addMission()" class="add-btn">+ Add Mission</button>
     </div>
 
@@ -21,9 +21,14 @@
                 <td>{{ mission.endDate | date:'mediumDate' }}</td>
                 <td>{{ mission.city }}</td>
                 <td>
-                    <button (click)="editMission(mission)" class="edit-btn">Edit</button>
-                    <button (click)="deleteMission(mission.id)" class="delete-btn">Delete</button>
+                    <button (click)="editMission(mission)" class="icon-btn">
+                        <i class="fas fa-pen"></i>
+                    </button>
+                    <button (click)="deleteMission(mission.id)" class="icon-btn delete">
+                        <i class="fas fa-trash"></i>
+                    </button>
                 </td>
+
             </tr>
         </tbody>
     </table>
