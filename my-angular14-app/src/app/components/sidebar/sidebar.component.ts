@@ -8,7 +8,7 @@ import { Router } from '@angular/router';
 })
 export class SidebarComponent implements OnInit {
 
-  constructor(private router: Router) {}
+  constructor(private router: Router) { }
 
   navigateTo(path: string) {
     this.router.navigate([`/${path}`]);
@@ -16,6 +16,11 @@ export class SidebarComponent implements OnInit {
   @Input() collapsed = true;
 
   ngOnInit(): void {
+  }
+
+  logout() {
+    localStorage.removeItem('token');
+    this.router.navigate(['/login']);
   }
 
 }

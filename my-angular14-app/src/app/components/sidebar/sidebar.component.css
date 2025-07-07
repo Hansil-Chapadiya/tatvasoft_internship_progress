@@ -47,6 +47,15 @@ li:hover {
   z-index: 1000;
 }
 
+.logout-btn {
+  background-color: orange;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
 /* 👇 For mobile screens */
 @media (max-width: 768px) {
   :host-context(.sidebar-collapsed) {
