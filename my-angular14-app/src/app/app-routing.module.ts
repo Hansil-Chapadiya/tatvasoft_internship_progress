@@ -4,6 +4,7 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { UsersComponent } from './components/users/users.component';
+import { MissionComponent } from './components/mission/mission.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -11,10 +12,10 @@ const routes: Routes = [
   {
     path: 'dashboard', component: DashboardComponent,
     children: [
-      { path: 'users', component: UsersComponent },]
+      { path: 'users', component: UsersComponent },
+      { path: 'mission', component: MissionComponent },]
   },
   { path: 'sidebar', component: SidebarComponent },
-  { path: 'dashboard/users', component: UsersComponent },
   { path: '**', redirectTo: 'login' }
   // Add future routes here like:
   // { path: 'dashboard', component: DashboardComponent },

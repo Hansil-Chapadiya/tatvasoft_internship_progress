@@ -7,7 +7,8 @@ import { LoginComponent } from './components/login/login.component';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { HttpClientModule } from '@angular/common/http';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
-import { UsersComponent } from './components/users/users.component'; // Uncomment if you need to make HTTP requests}
+import { UsersComponent } from './components/users/users.component';
+import { MissionComponent } from './components/mission/mission.component'; // Uncomment if you need to make HTTP requests}
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { UsersComponent } from './components/users/users.component'; // Uncommen
     LoginComponent,
     DashboardComponent,
     SidebarComponent,
-    UsersComponent
+    UsersComponent,
+    MissionComponent
   ],
   imports: [
     BrowserModule,
