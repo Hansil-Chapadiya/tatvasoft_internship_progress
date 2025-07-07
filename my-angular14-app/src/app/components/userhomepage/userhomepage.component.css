@@ -1,0 +1,71 @@
+.homepage-container {
+  padding: 20px;
+  background: #fff;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mission-card {
+  width: 300px;
+  border: 1px solid #eee;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px #f1f1f1;
+  padding: 15px;
+  position: relative;
+}
+
+.mission-card img {
+  width: 100%;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.status-tag {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.status-tag.closed { background-color: #666; }
+.status-tag.applied { background-color: #28a745; }
+.status-tag.open { background-color: #ff9800; }
+
+.apply-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 10px;
+  background-color: orange;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.apply-btn[disabled] {
+  background-color: #f2f2f2;
+  color: #aaa;
+  cursor: not-allowed;
+}
+
+.desc {
+  height: 50px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

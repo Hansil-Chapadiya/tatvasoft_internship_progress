@@ -1,1 +1,37 @@
-<p>userhomepage works!</p>
+<div class="homepage-container">
+  <div class="header">
+    <h3>Explore {{ missions.length }} missions</h3>
+    <div class="filters">
+      <select>
+        <option>Sort by</option>
+        <!-- Add more sort options -->
+      </select>
+      <button class="grid-icon">🔳</button>
+      <button class="list-icon">📃</button>
+    </div>
+  </div>
+
+  <div class="card-container">
+    <div class="mission-card" *ngFor="let mission of missions">
+      <div class="status-tag" [ngClass]="mission.status.toLowerCase()">
+        {{ mission.status }}
+      </div>
+      <img [src]="mission.imageUrl || 'assets/placeholder.jpg'" alt="Mission image" />
+      <h4>{{ mission.missionTitle }}</h4>
+      <p class="desc">{{ mission.description }}</p>
+
+      <div class="dates">
+        From {{ mission.startDate | date }} until {{ mission.endDate | date }}
+      </div>
+
+      <div class="info-row">
+        <span>👥 {{ mission.seatsLeft }} Seats left</span>
+        <span>🕒 {{ mission.deadline | date }} Deadline</span>
+      </div>
+
+      <button class="apply-btn" [disabled]="mission.status === 'APPLIED' || mission.status === 'CLOSED'">
+        {{ mission.status === 'APPLIED' ? 'Applied' : 'Apply' }} →
+      </button>
+    </div>
+  </div>
+</div>
