@@ -5,12 +5,15 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { UsersComponent } from './components/users/users.component';
 import { MissionComponent } from './components/mission/mission.component';
+import { AdminGuard } from './guards/admin.guard';
+
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
   { path: 'login', component: LoginComponent },
   {
     path: 'dashboard', component: DashboardComponent,
+    canActivate: [AdminGuard],
     children: [
       { path: 'users', component: UsersComponent },
       { path: 'mission', component: MissionComponent },]

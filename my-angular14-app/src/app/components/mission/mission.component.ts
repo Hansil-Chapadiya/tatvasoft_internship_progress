@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
 
 interface Mission {
   id: number;
@@ -16,7 +17,7 @@ interface Mission {
 export class MissionComponent implements OnInit {
 
   missions: Mission[] = [];
-  constructor(private http: HttpClient) { }
+  constructor(private http: HttpClient, private router : Router) { }
 
   ngOnInit(): void {
     this.fetchMissions();
@@ -27,6 +28,7 @@ export class MissionComponent implements OnInit {
 
     if (!token) {
       console.error("No token found.");
+      this.router.navigate(['/login']);
       return;
     }
 
