@@ -52,6 +52,56 @@ namespace Mission.Api.Controllers
                 });
             }
 
+            if (user.UserType.ToLower() != "admin")
+            {
+                return StatusCode(403, new
+                {
+                    success = false,
+                    message = "Access denied. Only regular users can log in from this page."
+                });
+            }
+
+            var secret = _config["JwtSettings:Secret"];
+            var token_ = TokenHelper.GenerateJwtToken(user.Id.ToString(), user.EmailAddress, user.UserType, secret);
+
+            return Ok(new
+            {
+                success = true,
+                message = "Login successful",
+                token = token_,
+                data = new
+                {
+                    user.Id,
+                    user.FirstName,
+                    user.LastName,
+                    user.EmailAddress,
+                    user.UserType
+                }
+            });
+        }
+
+        [HttpPost("userLogin")]
+        public IActionResult userLogin(string EmailAddress, string Password)
+        {
+            var user = _loginService.login(EmailAddress, Password);
+            if (user == null)
+            {
+                return NotFound(new
+                {
+                    success = false,
+                    message = "Please check your email and password."
+                });
+            }
+
+            if (user.UserType.ToLower() != "user")
+            {
+                return StatusCode(403, new
+                {
+                    success = false,
+                    message = "Access denied. Only admins can log in from this page."
+                });
+            }
+
             var secret = _config["JwtSettings:Secret"];
             var token_ = TokenHelper.GenerateJwtToken(user.Id.ToString(), user.EmailAddress, user.UserType, secret);
 
