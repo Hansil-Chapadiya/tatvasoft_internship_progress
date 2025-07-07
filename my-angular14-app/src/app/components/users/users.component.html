@@ -54,4 +54,38 @@
     </div>
   </div>
 
+  <!-- Edit User Modal -->
+  <div class="modal-backdrop" *ngIf="showEditModal">
+    <div class="edit-modal">
+      <h3>Edit User</h3>
+
+      <label>First Name</label>
+      <input [(ngModel)]="selectedUser.firstName" type="text" />
+
+      <label>Last Name</label>
+      <input [(ngModel)]="selectedUser.lastName" type="text" />
+
+      <label>Email</label>
+      <input [(ngModel)]="selectedUser.emailAddress" type="email" disabled />
+
+      <label>Phone Number</label>
+      <input [(ngModel)]="selectedUser.phoneNumber" type="text" />
+
+      <label>User Type</label>
+      <select [(ngModel)]="selectedUser.userType" disabled>
+        <option value="admin">Admin</option>
+        <option value="user">User</option>
+      </select>
+
+      <label>User Image</label>
+      <input [(ngModel)]="selectedUser.userImage" type="text" />
+
+
+      <div class="modal-buttons">
+        <button (click)="updateUser()">Update</button>
+        <button class="cancel-btn" (click)="closeEditModal()">Cancel</button>
+      </div>
+    </div>
+  </div>
+
 </div>

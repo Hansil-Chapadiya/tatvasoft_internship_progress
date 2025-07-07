@@ -107,10 +107,37 @@ export class UsersComponent implements OnInit {
     }
   }
 
-  editUser(user: User): void {
-    // Later you can navigate to an edit page or show modal
-    console.log('Editing user:', user);
+  showEditModal = false;
+  selectedUser: any = {};
+
+  editUser(user: any) {
+    this.selectedUser = { ...user };
+    this.showEditModal = true;
   }
+
+  closeEditModal() {
+    this.showEditModal = false;
+  }
+
+  updateUser(): void {
+    const token = localStorage.getItem('token');
+    const headers = {
+      Authorization: `Bearer ${token}`
+    };
+
+    this.http.put(`https://tatvasoft-internship-progress.onrender.com/api/User/Update`, this.selectedUser, { headers })
+      .subscribe({
+        next: () => {
+          this.fetchUsers(); // Refresh user list
+          this.closeEditModal();
+        },
+        error: (err) => {
+          console.error('Error updating user:', err);
+        }
+      });
+  }
+
+
 
   addUser(): void {
     const token = localStorage.getItem('token');
