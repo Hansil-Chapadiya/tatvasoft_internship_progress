@@ -42,8 +42,11 @@ export class LoginComponent implements OnInit {
         }
       },
       error: (err) => {
-        this.errorMessage = 'Invalid login. Please try again.';
-        console.error(err);
+        if (err.status === 403) {
+          alert(err.error?.message || 'Access denied');
+        } else {
+          alert('Something went wrong');
+        }
       }
     });
   }

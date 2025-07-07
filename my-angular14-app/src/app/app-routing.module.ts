@@ -6,7 +6,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { UsersComponent } from './components/users/users.component';
 import { MissionComponent } from './components/mission/mission.component';
 import { AdminGuard } from './guards/admin.guard';
-
+import { UserloginComponent } from './components/userlogin/userlogin.component';
+import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -19,6 +20,8 @@ const routes: Routes = [
       { path: 'mission', component: MissionComponent },]
   },
   { path: 'sidebar', component: SidebarComponent },
+  { path: 'userlogin', component: UserloginComponent },
+  { path: 'userhomepage', component: UserhomepageComponent },
   { path: '**', redirectTo: 'login' }
   // Add future routes here like:
   // { path: 'dashboard', component: DashboardComponent },
