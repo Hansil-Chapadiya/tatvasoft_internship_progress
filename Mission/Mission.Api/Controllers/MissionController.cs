@@ -7,7 +7,6 @@ using Mission.Entities.Entities;
 
 namespace Mission.Api.Controllers
 {
-    [Authorize(Roles = "admin")]
     [ApiController]
     [Route("api/[controller]")]
     public class MissionController : ControllerBase
@@ -18,6 +17,7 @@ namespace Mission.Api.Controllers
             _context = context;
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPost("Add")]
         public IActionResult AddMission([FromBody] AddMissionDto dto)
         {
@@ -51,6 +51,7 @@ namespace Mission.Api.Controllers
             });
         }
 
+        [Authorize(Roles = "admin")]
         [HttpPut("Update")]
         public IActionResult UpdateMission([FromBody] UpdateMissionDto dto)
         {
@@ -96,6 +97,7 @@ namespace Mission.Api.Controllers
             });
         }
 
+        [Authorize(Roles = "admin")]
         [HttpDelete("Delete/{id}")]
         public IActionResult DeleteMission(int id)
         {
@@ -122,6 +124,7 @@ namespace Mission.Api.Controllers
         }
 
 
+        [Authorize(Roles = "admin"), Authorize(Roles ="user")]
         [HttpGet("GetAll")]
         public IActionResult GetAllMissions()
         {
