@@ -1,35 +1,55 @@
+<!-- Existing Mission Table -->
 <div class="mission-wrapper">
     <div class="mission-header">
         <h2>Missions</h2>
-        <button (click)="addMission()" class="add-btn">+ Add Mission</button>
+        <button class="add-btn" (click)="openAddModal()">+ Add Mission</button>
     </div>
-
     <table class="mission-table">
         <thead>
             <tr>
                 <th>Title</th>
-                <th>Start Date</th>
-                <th>End Date</th>
+                <th>Start</th>
+                <th>End</th>
                 <th>City</th>
-                <th>Actions</th>
+                <th>Action</th>
             </tr>
         </thead>
         <tbody>
             <tr *ngFor="let mission of missions">
                 <td>{{ mission.missionTitle }}</td>
-                <td>{{ mission.startDate | date:'mediumDate' }}</td>
-                <td>{{ mission.endDate | date:'mediumDate' }}</td>
+                <td>{{ mission.startDate }}</td>
+                <td>{{ mission.endDate }}</td>
                 <td>{{ mission.city }}</td>
                 <td>
-                    <button (click)="editMission(mission)" class="icon-btn">
-                        <i class="fas fa-pen"></i>
-                    </button>
-                    <button (click)="deleteMission(mission.id)" class="icon-btn delete">
-                        <i class="fas fa-trash"></i>
-                    </button>
-                </td>
+                    <button class="icon-btn" (click)="openEditModal(mission)"> <i class="fas fa-pen"></i></button>
+                    <button *ngIf="mission.id" class="icon-btn delete" (click)="deleteMission(mission.id)"><i class="fas fa-trash"></i></button>
 
+                </td>
             </tr>
         </tbody>
     </table>
+</div>
+
+<!-- Modal -->
+<div class="modal-backdrop" *ngIf="isModalOpen">
+    <div class="modal">
+        <h2>{{ isEditMode ? 'Edit Mission' : 'Add Mission' }}</h2>
+
+        <input type="text" placeholder="Title" [(ngModel)]="newMission.missionTitle">
+        <textarea placeholder="Description" [(ngModel)]="newMission.missionDescription"></textarea>
+        <input type="date" [(ngModel)]="newMission.startDate">
+        <input type="date" [(ngModel)]="newMission.endDate">
+        <input type="number" placeholder="Seats" [(ngModel)]="newMission.totalSeats">
+        <input type="text" placeholder="Image URL" [(ngModel)]="newMission.missionImage">
+        <input type="number" placeholder="Country ID" [(ngModel)]="newMission.countryId">
+        <input type="number" placeholder="City ID" [(ngModel)]="newMission.cityId">
+        <input type="number" placeholder="Theme ID" [(ngModel)]="newMission.missionThemeId">
+        <input type="text" placeholder="Skill IDs (comma separated)" (change)="handleSkillInput($event)">
+
+
+        <div class="modal-actions">
+            <button class="save-btn" (click)="saveMission()">{{ isEditMode ? 'Update' : 'Save' }}</button>
+            <button class="cancel-btn" (click)="isModalOpen = false">Cancel</button>
+        </div>
+    </div>
 </div>
