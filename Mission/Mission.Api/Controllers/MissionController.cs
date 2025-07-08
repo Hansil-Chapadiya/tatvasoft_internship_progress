@@ -124,7 +124,7 @@ namespace Mission.Api.Controllers
         }
 
 
-        [Authorize(Roles = "admin"), Authorize(Roles ="user")]
+        [Authorize(Roles = "admin,user")]
         [HttpGet("GetAll")]
         public IActionResult GetAllMissions()
         {
