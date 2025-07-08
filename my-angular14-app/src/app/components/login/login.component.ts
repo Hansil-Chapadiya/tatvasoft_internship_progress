@@ -32,7 +32,7 @@ export class LoginComponent implements OnInit {
 
           if (userRole === 'admin') {
             localStorage.setItem('token', res.token);
-            this.router.navigate(['/dashboard']);
+            this.router.navigate(['/dashboard/users']);
           } else {
             this.errorMessage = 'Only admins can access this page.';
             alert('⛔ Access denied: Only admins can login here.');
@@ -61,7 +61,7 @@ export class LoginComponent implements OnInit {
         const userRole = tokenPayload?.role?.toLowerCase();
 
         if (userRole === 'admin') {
-          this.router.navigate(['/dashboard']);
+          this.router.navigate(['/dashboard/users']);
         } else {
           // Optional: clear token if user not admin
           localStorage.removeItem('token');

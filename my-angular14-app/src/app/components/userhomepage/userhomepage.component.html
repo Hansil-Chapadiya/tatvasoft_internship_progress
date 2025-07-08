@@ -13,20 +13,21 @@
 
   <div class="card-container">
     <div class="mission-card" *ngFor="let mission of missions">
-      <div class="status-tag" [ngClass]="mission.status.toLowerCase()">
+      <!-- <div class="status-tag" [ngClass]="mission.status.toLowerCase()">
         {{ mission.status }}
-      </div>
-      <img [src]="mission.imageUrl || 'assets/placeholder.jpg'" alt="Mission image" />
+      </div> -->
+      <img [src]="mission.missionImage || 'assets/placeholder.jpg'" alt="Mission image" />
       <h4>{{ mission.missionTitle }}</h4>
-      <p class="desc">{{ mission.description }}</p>
+      <p class="desc">{{ mission.missionDescription }}</p>
 
       <div class="dates">
         From {{ mission.startDate | date }} until {{ mission.endDate | date }}
       </div>
 
       <div class="info-row">
-        <span>👥 {{ mission.seatsLeft }} Seats left</span>
-        <span>🕒 {{ mission.deadline | date }} Deadline</span>
+        <span>👥 {{ mission.totalSeats }} Seats left</span>
+        <!-- <span>🕒 {{ mission.deadline | date }} Deadline</span> -->
+        <span>🕒 Deadline</span>
       </div>
 
       <button class="apply-btn" [disabled]="mission.status === 'APPLIED' || mission.status === 'CLOSED'">

@@ -4,20 +4,13 @@ import { HttpClient } from '@angular/common/http';
 interface Mission {
   id: number;
   missionTitle: string;
-  description: string;
+  missionDescription: string;
   startDate: string;
   endDate: string;
-  seatsLeft: number;
-  deadline: string;
+  totalSeats: number;
   status: string; // "CLOSED" | "APPLIED" | "OPEN"
-  imageUrl: string;
+  missionImage: string;
 }
-
-@Component({
-  selector: 'app-user-homepage',
-  templateUrl: './user-homepage.component.html',
-  styleUrls: ['./user-homepage.component.css']
-})
 
 @Component({
   selector: 'app-userhomepage',
@@ -33,11 +26,24 @@ export class UserhomepageComponent implements OnInit {
   constructor(private http: HttpClient) { }
 
   ngOnInit(): void {
-    this.http.get<any>('https://tatvasoft-internship-progress.onrender.com/api/Mission/GetAll')
-      .subscribe({
-        next: (res) => this.missions = res.data,
-        error: (err) => console.error('Mission fetch error:', err)
-      });
+    const token = localStorage.getItem('token');
+    if (!token) {
+      console.error('No token found!');
+      return;
+    }
+
+    const headers = {
+      Authorization: `Bearer ${token}`
+    };
+
+    this.http.get<any>(
+      'https://tatvasoft-internship-progress.onrender.com/api/Mission/GetAll',
+      { headers }
+    ).subscribe({
+      next: (res) => this.missions = res.data,
+      error: (err) => console.error('Mission fetch error:', err)
+    });
   }
+
 
 }
