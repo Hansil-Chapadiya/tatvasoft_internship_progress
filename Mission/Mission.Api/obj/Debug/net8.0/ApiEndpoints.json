@@ -1,5 +1,25 @@
 [
   {
+    "ContainingType": "Mission.Api.Controllers.CityController",
+    "Method": "GetAllCities",
+    "RelativePath": "api/City/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Mission.Api.Controllers.CountryController",
+    "Method": "GetAllCountries",
+    "RelativePath": "api/Country/GetAll",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "Mission.Api.Controllers.LoginController",
     "Method": "Login",
     "RelativePath": "api/Login/Login",

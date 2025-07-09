@@ -5,6 +5,30 @@
     "version": "1.0"
   },
   "paths": {
+    "/api/City/GetAll": {
+      "get": {
+        "tags": [
+          "City"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
+    "/api/Country/GetAll": {
+      "get": {
+        "tags": [
+          "Country"
+        ],
+        "responses": {
+          "200": {
+            "description": "Success"
+          }
+        }
+      }
+    },
     "/api/Login/Login": {
       "post": {
         "tags": [
