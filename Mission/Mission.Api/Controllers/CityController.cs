@@ -18,7 +18,7 @@ namespace Mission.Api.Controllers
             _context = context;
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpGet("GetAll")]
         public IActionResult GetAllCities()
         {
@@ -28,7 +28,7 @@ namespace Mission.Api.Controllers
                 {
                     c.Id,
                     c.Name,
-                    CountryName = c.Country.Name, // Assuming Country has a Name 
+                    CountryName = c.Country.Name, // Assuming Country has a Name
                 })
                 .ToList();
 

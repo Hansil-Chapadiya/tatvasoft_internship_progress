@@ -16,12 +16,12 @@ namespace Mission.Api.Controllers
         {
             _context = context;
         }
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpGet("GetAll")]
         public IActionResult GetAllCountries()
         {
             var countries = _context.Countries.ToList();
             return Ok(new { success = true, data = countries });
         }
-    } 
+    }
 }
