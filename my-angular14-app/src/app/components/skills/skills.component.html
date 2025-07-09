@@ -1,0 +1,74 @@
+<div class="skills-wrapper">
+    <div class="skills-header">
+        <h2>Skills</h2>
+        <button (click)="openModal()" class="add-btn">+ Add Skill</button>
+    </div>
+
+    <table class="skills-table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let skill of skills">
+                <td>{{ skill.name }}</td>
+                <td>{{ skill.isActive }}</td>
+                <td>
+                    <button (click)="editSkill(skill)" class="icon-btn">
+                        <i class="fas fa-pen"></i>
+                    </button>
+                    <button (click)="deleteSkill(skill.id)" class="icon-btn delete">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Add User Modal -->
+    <div class="modal-backdrop" *ngIf="showAddSkillModal">
+        <div class="modal-box">
+            <h3>Add New Skill</h3>
+            <form (ngSubmit)="addSkill()" #userForm="ngForm">
+                <input type="text" placeholder="Skill Name" [(ngModel)]="newSkill.name" name="name" required />
+
+                <select [(ngModel)]="newSkill.isActive" name="skillStatus" required>
+                    <option [ngValue]="true">Active</option>
+                    <option [ngValue]="false">Inactive</option>
+                </select>
+                <div class="modal-actions">
+                    <button type="submit" class="btn-orange">Add</button>
+                    <button type="button" class="btn-cancel" (click)="closeModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Edit User Modal -->
+    <div class="modal-backdrop" *ngIf="showEditModal">
+        <div class="edit-modal">
+            <h3>Edit Skill</h3>
+
+            <label>Skill ID</label>
+            <input [(ngModel)]="selectedSkill.id" type="text" disabled />
+
+            <label>Name</label>
+            <input [(ngModel)]="selectedSkill.name" type="text" />
+
+            <label>Skill Status</label>
+            <select [(ngModel)]="selectedSkill.isActive">
+                <option [ngValue]="true">Active</option>
+                <option [ngValue]="false">Inactive</option>
+            </select>
+
+
+            <div class="modal-buttons">
+                <button (click)="updateSkill()">Update</button>
+                <button class="cancel-btn" (click)="closeEditModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>

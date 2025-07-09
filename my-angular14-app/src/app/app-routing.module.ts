@@ -10,6 +10,7 @@ import { UserGuard } from './guards/user.guard';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
 import { ThemesComponent } from './components/themes/themes.component';
+import { SkillsComponent } from './components/skills/skills.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -20,7 +21,8 @@ const routes: Routes = [
     children: [
       { path: 'users', component: UsersComponent },
       { path: 'mission', component: MissionComponent },
-      { path: 'themes', component: ThemesComponent },]
+      { path: 'themes', component: ThemesComponent },
+      { path: 'skills', component: SkillsComponent }]
   },
   { path: 'sidebar', component: SidebarComponent },
   {
