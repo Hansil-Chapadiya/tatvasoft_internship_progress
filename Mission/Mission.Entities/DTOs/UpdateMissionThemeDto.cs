@@ -4,14 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Mission.Entities.Entities
+namespace Mission.Entities.DTOs
 {
-    public class MissionTheme
+    public class UpdateMissionThemeDto
     {
         public int Id { get; set; }
         public string Title { get; set; } = string.Empty;
-
-        public bool IsActive { get; set; } = true; // <-- added
+        public bool IsActive { get; set; } = true;
     }
 
 }

@@ -124,7 +124,7 @@ namespace Mission.Api.Controllers
         }
 
 
-        [Authorize(Roles = "admin,user")]
+        //[Authorize(Roles = "admin,user")]
         [HttpGet("GetAll")]
         public IActionResult GetAllMissions()
         {
@@ -144,12 +144,22 @@ namespace Mission.Api.Controllers
                     EndDate = m.EndDate,
                     MissionImage = m.MissionImage,
                     TotalSeats = m.TotalSeats,
+
+                    CountryId = m.CountryId,
                     Country = m.Country.Name,
+
+                    CityId = m.CityId,
                     City = m.City.Name,
+
+                    MissionThemeId = m.MissionThemeId,
                     Theme = m.Theme.Title,
-                    Skills = m.MissionSkills.Select(ms => ms.Skill.Name).ToList()
-                })
-                .ToList();
+
+                    SkillIds = m.MissionSkills.Select(ms => ms.SkillId).ToList(),
+                    Skills = m.MissionSkills.Select(ms => ms.Skill.Name).ToList(),
+                    Status = m.EndDate < DateTime.UtcNow ? false : true,
+                    // Assuming status is true if the mission has ended
+
+                }).ToList();
 
             return Ok(new
             {

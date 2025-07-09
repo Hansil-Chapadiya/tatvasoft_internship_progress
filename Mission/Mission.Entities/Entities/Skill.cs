@@ -11,6 +11,8 @@ namespace Mission.Entities.Entities
         public int Id { get; set; }
         public string Name { get; set; } = string.Empty;
         public ICollection<MissionSkill> MissionSkills { get; set; } = new List<MissionSkill>();
+
+        public bool IsActive { get; set; } = true; // <-- added
     }
 
 }
