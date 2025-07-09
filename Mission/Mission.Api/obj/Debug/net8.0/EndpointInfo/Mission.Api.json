@@ -653,10 +653,6 @@
           },
           "isActive": {
             "type": "boolean"
-          },
-          "missionId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false
@@ -823,10 +819,6 @@
           },
           "isActive": {
             "type": "boolean"
-          },
-          "missionId": {
-            "type": "integer",
-            "format": "int32"
           }
         },
         "additionalProperties": false

@@ -11,7 +11,7 @@ namespace Mission.Entities.DTOs
         public int Id { get; set; }               // Skill ID to update
         public string Name { get; set; } = string.Empty;
         public bool IsActive { get; set; }
-        public int MissionId { get; set; }        // For mapping update (optional logic)
+        //public int MissionId { get; set; }        // For mapping update (optional logic)
     }
 
 }

@@ -10,7 +10,7 @@ namespace Mission.Entities.DTOs
     {
         public string Name { get; set; } = string.Empty;
         public bool IsActive { get; set; } = true;
-        public int MissionId { get; set; }  // the mission to map this skill to
+        //public int MissionId { get; set; }  // the mission to map this skill to
     }
 
 }

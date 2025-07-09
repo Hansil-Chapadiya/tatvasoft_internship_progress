@@ -3,7 +3,6 @@ using Microsoft.AspNetCore.Mvc;
 using Mission.Entities.context;
 using Mission.Entities.DTOs;
 using Mission.Entities.Entities;
-using Mission.Services.Helper;
 
 namespace Mission.Api.Controllers
 {
@@ -18,7 +17,7 @@ namespace Mission.Api.Controllers
             _context = context;
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpGet("GetAll")]
         public IActionResult GetAllSkills(bool onlyActive = false)
         {
@@ -29,17 +28,15 @@ namespace Mission.Api.Controllers
             return Ok(new { success = true, data = skills });
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpPost("Add")]
         public IActionResult AddSkill([FromBody] AddSkillDto dto)
         {
-            // Optional: Check if skill already exists by name
             if (_context.Skills.Any(s => s.Name.ToLower() == dto.Name.ToLower()))
             {
                 return BadRequest("Skill with the same name already exists.");
             }
 
-            // Step 1: Add new Skill (auto-generated Id)
             var skill = new Skill
             {
                 Name = dto.Name,
@@ -47,30 +44,12 @@ namespace Mission.Api.Controllers
             };
 
             _context.Skills.Add(skill);
-            _context.SaveChanges(); // now skill.Id is generated
-
-            // Step 2: Map this skill to Mission using MissionSkill
-            var missionExists = _context.Missions.Any(m => m.Id == dto.MissionId);
-            if (!missionExists)
-            {
-                return BadRequest("Invalid MissionId provided.");
-            }
-
-            var missionSkill = new MissionSkill
-            {
-                MissionId = dto.MissionId,
-                SkillId = skill.Id // use generated Id here
-            };
-
-            _context.MissionSkills.Add(missionSkill);
             _context.SaveChanges();
 
-            return Ok(new { success = true, message = "Skill added and mapped to mission." });
+            return Ok(new { success = true, message = "Skill added successfully." });
         }
 
-
-
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpPut("Update")]
         public IActionResult UpdateSkill([FromBody] UpdateSkillDto dto)
         {
@@ -78,46 +57,25 @@ namespace Mission.Api.Controllers
             if (skill == null)
                 return NotFound("Skill not found.");
 
-            // 1. Update skill properties
             skill.Name = dto.Name;
             skill.IsActive = dto.IsActive;
             _context.SaveChanges();
 
-            // 2. Update mapping in MissionSkills table if needed
-            var existingMapping = _context.MissionSkills.FirstOrDefault(ms => ms.SkillId == dto.Id);
-
-            if (existingMapping != null && existingMapping.MissionId != dto.MissionId)
-            {
-                // Update mission mapping
-                existingMapping.MissionId = dto.MissionId;
-                _context.SaveChanges();
-            }
-            else if (existingMapping == null)
-            {
-                // Create new mapping if doesn't exist
-                var newMapping = new MissionSkill
-                {
-                    MissionId = dto.MissionId,
-                    SkillId = dto.Id
-                };
-                _context.MissionSkills.Add(newMapping);
-                _context.SaveChanges();
-            }
-
             return Ok(new { success = true, message = "Skill updated successfully." });
         }
 
-        [Authorize(Roles = "admin")]
+        //[Authorize(Roles = "admin")]
         [HttpDelete("Delete/{id}")]
         public IActionResult DeleteSkill(int id)
         {
             var skill = _context.Skills.FirstOrDefault(s => s.Id == id);
-            if (skill == null) return NotFound();
+            if (skill == null)
+                return NotFound();
 
             skill.IsActive = false;
             _context.SaveChanges();
 
-            return Ok(new { success = true, message = "Skill deactivated" });
+            return Ok(new { success = true, message = "Skill deactivated successfully." });
         }
 
         [Authorize(Roles = "admin")]
@@ -125,7 +83,8 @@ namespace Mission.Api.Controllers
         public IActionResult ToggleSkillStatus(int id)
         {
             var skill = _context.Skills.FirstOrDefault(s => s.Id == id);
-            if (skill == null) return NotFound();
+            if (skill == null)
+                return NotFound();
 
             skill.IsActive = !skill.IsActive;
             _context.SaveChanges();
@@ -133,11 +92,8 @@ namespace Mission.Api.Controllers
             return Ok(new
             {
                 success = true,
-                message = $"Skill status set to {(skill.IsActive ? "Active" : "Inactive")}"
+                message = $"Skill status set to {(skill.IsActive ? "Active" : "Inactive")}."
             });
         }
-
-
-        // ----------------- CRUD API below ------------------
     }
 }
