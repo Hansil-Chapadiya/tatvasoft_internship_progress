@@ -1,0 +1,279 @@
+/* themes Wrapper - Full Width */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.themes-wrapper {
+  padding: 20px 0;
+  /* Removed horizontal padding */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  width: 100%;
+  margin-left: 20px;
+}
+
+.themes-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+  /* Inner padding only */
+}
+
+.themes-header h2 {
+  color: #ffa500;
+  font-size: 28px;
+  margin: 0;
+}
+
+.add-btn {
+  background-color: #ffa500;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
+}
+
+.add-btn:hover {
+  background-color: #e69500;
+}
+
+/* themes Table - Full Width */
+.themes-table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+}
+
+.themes-table th {
+  background-color: #ffa500;
+  color: white;
+  font-weight: 600;
+  padding: 15px 20px;
+  text-align: left;
+}
+
+.themes-table td {
+  padding: 12px 20px;
+  /* border-bottom: 1px solid #ffa500; */
+  text-align: left;
+}
+
+.themes-table tr:hover {
+  background-color: #fffaf0;
+}
+
+/* Icon Buttons */
+.icon-btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #ffa500;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: all 0.2s;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+.icon-btn.delete {
+  color: #e74c3c;
+}
+
+.icon-btn.delete:hover {
+  background-color: rgba(255, 165, 0, 0.1);
+}
+
+/* Modal Styles - Full Width */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.modal-box,
+.edit-modal {
+  background: white;
+  padding: 30px;
+  border-radius: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  box-shadow: none;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-y: auto;
+}
+
+.modal-box h3,
+.edit-modal h3 {
+  color: #ff8c00;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/* Form Elements - Clean Borderless Style */
+.modal-box input,
+.modal-box select,
+.edit-modal input,
+.edit-modal select {
+  width: 100%;
+  padding: 12px 0;
+  /* Removed side padding */
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: none;
+  /* Removed all borders */
+  border-bottom: 2px solid #ddd;
+  /* Only bottom border */
+  background: transparent;
+  transition: all 0.3s;
+  box-shadow: none;
+}
+
+/* Focus State */
+.modal-box input:focus,
+.modal-box select:focus,
+.edit-modal input:focus,
+.edit-modal select:focus {
+  border-bottom-color: #ffa500;
+  outline: none;
+  box-shadow: none;
+}
+
+/* File Input Styling */
+input[type="file"] {
+  border: none;
+  padding: 10px 0;
+  margin: 6px 0 20px;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+}
+
+/* Form Layout Adjustment */
+.form-row {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Equal Spacing on Both Sides */
+.modal-box,
+.edit-modal {
+  padding: 30px;
+  /* Equal padding all sides */
+}
+
+/* Remove Extra Space on Left */
+.modal-box .form-group,
+.edit-modal .form-group {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Modal Actions */
+.modal-actions,
+.modal-buttons {
+  display: flex;
+  justify-content: flex-end;
+  gap: 12px;
+  margin-top: 20px;
+}
+
+.btn-orange,
+.modal-buttons button:not(.cancel-btn) {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-orange:hover,
+.modal-buttons button:not(.cancel-btn):hover {
+  background-color: #e69500;
+}
+
+.btn-cancel,
+.cancel-btn {
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-cancel:hover,
+.cancel-btn:hover {
+  background-color: #d0d0d0;
+}
+
+/* input[type="file"] {
+  border: none;
+  margin-top: 6px;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+  padding: 10px 0;
+} */
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+
+  .modal-box,
+  .edit-modal {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    max-height: 90vh;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  .themes-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .modal-actions,
+  .modal-buttons {
+    flex-direction: column;
+  }
+
+  .btn-orange,
+  .btn-cancel,
+  .modal-buttons button {
+    width: 100%;
+  }
+}

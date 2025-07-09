@@ -9,6 +9,7 @@ import { AdminGuard } from './guards/admin.guard';
 import { UserGuard } from './guards/user.guard';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
+import { ThemesComponent } from './components/themes/themes.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -18,7 +19,8 @@ const routes: Routes = [
     canActivate: [AdminGuard],
     children: [
       { path: 'users', component: UsersComponent },
-      { path: 'mission', component: MissionComponent },]
+      { path: 'mission', component: MissionComponent },
+      { path: 'themes', component: ThemesComponent },]
   },
   { path: 'sidebar', component: SidebarComponent },
   {

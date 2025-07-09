@@ -10,7 +10,8 @@ import { SidebarComponent } from './components/sidebar/sidebar.component';
 import { UsersComponent } from './components/users/users.component';
 import { MissionComponent } from './components/mission/mission.component';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
-import { UserhomepageComponent } from './components/userhomepage/userhomepage.component'; // Uncomment if you need to make HTTP requests}
+import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
+import { ThemesComponent } from './components/themes/themes.component'; // Uncomment if you need to make HTTP requests}
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { UserhomepageComponent } from './components/userhomepage/userhomepage.co
     UsersComponent,
     MissionComponent,
     UserloginComponent,
-    UserhomepageComponent
+    UserhomepageComponent,
+    ThemesComponent
   ],
   imports: [
     BrowserModule,

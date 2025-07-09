@@ -1,0 +1,76 @@
+<div class="themes-wrapper">
+    <div class="themes-header">
+        <h2>Themes</h2>
+        <button (click)="openModal()" class="add-btn">+ Add Theme</button>
+    </div>
+
+    <table class="themes-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let theme of themes">
+                <td>{{ theme.title }}</td>
+                <td>{{ theme.isActive }}</td>
+                <td>
+                    <button (click)="editTheme(theme)" class="icon-btn">
+                        <i class="fas fa-pen"></i>
+                    </button>
+                    <button (click)="deleteTheme(theme.id)" class="icon-btn delete">
+                        <i class="fas fa-trash"></i>
+                    </button>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Add User Modal -->
+    <div class="modal-backdrop" *ngIf="showAddThemeModal">
+        <div class="modal-box">
+            <h3>Add New Theme</h3>
+            <form (ngSubmit)="addTheme()" #userForm="ngForm">
+                <input type="text" placeholder="Theme Name" [(ngModel)]="newTheme.title" name="title" required />
+
+                <select [(ngModel)]="newTheme.isActive" name="themeStatus" required>
+                    <option [ngValue]="true">Active</option>
+                    <option [ngValue]="false">Inactive</option>
+                </select>
+
+
+                <div class="modal-actions">
+                    <button type="submit" class="btn-orange">Add</button>
+                    <button type="button" class="btn-cancel" (click)="closeModal()">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- Edit User Modal -->
+    <div class="modal-backdrop" *ngIf="showEditModal">
+        <div class="edit-modal">
+            <h3>Edit Theme</h3>
+
+            <label>Theme ID</label>
+            <input [(ngModel)]="selectedTheme.id" type="text" disabled />
+
+            <label>Name</label>
+            <input [(ngModel)]="selectedTheme.title" type="text" />
+
+            <label>Theme Status</label>
+            <select [(ngModel)]="selectedTheme.isActive">
+                <option [ngValue]="true">Active</option>
+                <option [ngValue]="false">Inactive</option>
+            </select>
+
+
+            <div class="modal-buttons">
+                <button (click)="updateTheme()">Update</button>
+                <button class="cancel-btn" (click)="closeEditModal()">Cancel</button>
+            </div>
+        </div>
+    </div>
+</div>
