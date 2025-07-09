@@ -17,12 +17,13 @@
         <tbody>
             <tr *ngFor="let mission of missions">
                 <td>{{ mission.missionTitle }}</td>
-                <td>{{ mission.startDate }}</td>
-                <td>{{ mission.endDate }}</td>
+                <td>{{ mission.startDate | date: 'dd MMM yyyy' }}</td>
+                <td>{{ mission.endDate | date: 'dd MMM yyyy' }}</td>
                 <td>{{ mission.city }}</td>
                 <td>
                     <button class="icon-btn" (click)="openEditModal(mission)"> <i class="fas fa-pen"></i></button>
-                    <button *ngIf="mission.id" class="icon-btn delete" (click)="deleteMission(mission.id)"><i class="fas fa-trash"></i></button>
+                    <button *ngIf="mission.id" class="icon-btn delete" (click)="deleteMission(mission.id)"><i
+                            class="fas fa-trash"></i></button>
 
                 </td>
             </tr>
@@ -31,25 +32,133 @@
 </div>
 
 <!-- Modal -->
-<div class="modal-backdrop" *ngIf="isModalOpen">
-    <div class="modal">
-        <h2>{{ isEditMode ? 'Edit Mission' : 'Add Mission' }}</h2>
+<!-- <div class="modal-backdrop" *ngIf="isModalOpen">
+    <div class="modal-box">
+        <h3>{{ isEditMode ? 'Edit Mission' : 'Add Mission' }}</h3>
 
-        <input type="text" placeholder="Title" [(ngModel)]="newMission.missionTitle">
-        <textarea placeholder="Description" [(ngModel)]="newMission.missionDescription"></textarea>
-        <input type="date" [(ngModel)]="newMission.startDate">
-        <input type="date" [(ngModel)]="newMission.endDate">
-        <input type="number" placeholder="Seats" [(ngModel)]="newMission.totalSeats">
-        <input type="text" placeholder="Image URL" [(ngModel)]="newMission.missionImage">
-        <input type="number" placeholder="Country ID" [(ngModel)]="newMission.countryId">
-        <input type="number" placeholder="City ID" [(ngModel)]="newMission.cityId">
-        <input type="number" placeholder="Theme ID" [(ngModel)]="newMission.missionThemeId">
-        <input type="text" placeholder="Skill IDs (comma separated)" (change)="handleSkillInput($event)">
+        <div class="modal-grid">
+            <input type="text" placeholder="Title" [(ngModel)]="newMission.missionTitle" />
+            <input type="text" placeholder="Image URL" [(ngModel)]="newMission.missionImage" />
 
+            <textarea placeholder="Description" [(ngModel)]="newMission.missionDescription" rows="3"
+                style="grid-column: span 2"></textarea>
+
+            <input type="date" [(ngModel)]="newMission.startDate" />
+            <input type="date" [(ngModel)]="newMission.endDate" />
+
+            <input type="number" placeholder="Seats" [(ngModel)]="newMission.totalSeats" />
+
+            <select [(ngModel)]="newMission.countryId">
+                <option value="" disabled selected>Select Country</option>
+                <option *ngFor="let c of countries" [value]="c.id">{{ c.name }}</option>
+            </select>
+
+            <select [(ngModel)]="newMission.cityId">
+                <option value="" disabled selected>Select City</option>
+                <option *ngFor="let city of cities" [value]="city.id">{{ city.name }}</option>
+            </select>
+
+            <select [(ngModel)]="newMission.missionThemeId">
+                <option value="" disabled selected>Select Theme</option>
+                <option *ngFor="let theme of themes" [value]="theme.id">{{ theme.title }}</option>
+            </select>
+        </div>
+
+        <div class="skill-checkboxes">
+            <label *ngFor="let skill of allSkills">
+                <input type="checkbox" [value]="skill.id" [checked]="newMission.skillIds.includes(skill.id)"
+                    (change)="onSkillCheckboxChange(skill.id, $any($event.target).checked)" />
+                {{ skill.name }}
+            </label>
+        </div>
 
         <div class="modal-actions">
-            <button class="save-btn" (click)="saveMission()">{{ isEditMode ? 'Update' : 'Save' }}</button>
-            <button class="cancel-btn" (click)="isModalOpen = false">Cancel</button>
+            <button class="btn-orange" (click)="saveMission()">{{ isEditMode ? 'Update' : 'Save' }}</button>
+            <button class="btn-cancel" (click)="isModalOpen = false">Cancel</button>
+        </div>
+    </div>
+</div> -->
+
+<div class="modal-backdrop" *ngIf="isModalOpen">
+    <div class="modal-box">
+        <h2>{{ isEditMode ? 'Edit Mission' : 'Add Mission' }}</h2>
+
+        <!-- Main Mission Details -->
+        <div class="form-section">
+            <input type="text" placeholder="Mission Title" [(ngModel)]="newMission.missionTitle" class="full-width">
+            <textarea placeholder="Description" [(ngModel)]="newMission.missionDescription" rows="3"></textarea>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Start Date</label>
+                    <input type="date" [(ngModel)]="newMission.startDate">
+                </div>
+                <div class="form-group">
+                    <label>End Date</label>
+                    <input type="date" [(ngModel)]="newMission.endDate">
+                </div>
+            </div>
+
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Total Seats</label>
+                    <input type="number" [(ngModel)]="newMission.totalSeats">
+                </div>
+                <div class="form-group">
+                    <label>Image URL</label>
+                    <input type="text" [(ngModel)]="newMission.missionImage">
+                </div>
+            </div>
+        </div>
+
+        <!-- Location Section -->
+        <div class="form-section">
+            <h3>Location</h3>
+            <div class="form-row">
+                <div class="form-group">
+                    <label>Country</label>
+                    <select [(ngModel)]="newMission.countryId">
+                        <option value="" disabled selected>Select Country</option>
+                        <option *ngFor="let c of countries" [value]="c.id">{{ c.name }}</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label>City</label>
+                    <select [(ngModel)]="newMission.cityId">
+                        <option value="" disabled selected>Select City</option>
+                        <option *ngFor="let city of cities" [value]="city.id">{{ city.name }}</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- Theme Section -->
+        <div class="form-section">
+            <h3>Theme</h3>
+            <select [(ngModel)]="newMission.missionThemeId" class="full-width">
+                <option value="" disabled selected>Select Theme</option>
+                <option *ngFor="let theme of themes" [value]="theme.id">{{ theme.title }}</option>
+            </select>
+        </div>
+
+        <!-- Skills Section -->
+        <div class="form-section">
+            <h3>Required Skills</h3>
+            <div class="skills-grid">
+                <label *ngFor="let skill of allSkills" class="skill-checkbox">
+                    <input type="checkbox"
+                           [value]="skill.id"
+                           [checked]="newMission.skillIds.includes(skill.id)"
+                           (change)="onSkillCheckboxChange(skill.id, $any($event.target).checked)">
+                    <span>{{ skill.name }}</span>
+                </label>
+            </div>
+        </div>
+
+        <!-- Action Buttons -->
+        <div class="modal-actions">
+            <button class="btn-cancel" (click)="isModalOpen = false">Cancel</button>
+            <button class="btn-orange" (click)="saveMission()">{{ isEditMode ? 'Update Mission' : 'Save Mission' }}</button>
         </div>
     </div>
 </div>

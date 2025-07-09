@@ -28,6 +28,11 @@ interface Mission {
 })
 export class MissionComponent implements OnInit {
 
+  countries: any[] = [];
+  cities: any[] = [];
+  themes: any[] = [];
+  allSkills: any[] = [];
+
   missions: Mission[] = [];
   isModalOpen = false;
   isEditMode = false;
@@ -50,8 +55,26 @@ export class MissionComponent implements OnInit {
 
   ngOnInit(): void {
     this.fetchMissions();
+    this.fetchDropdowns(); //
   }
 
+  fetchDropdowns(): void {
+    const token = localStorage.getItem('token');
+    if (!token) return;
+    const headers = { Authorization: `Bearer ${token}` };
+
+    this.http.get<any>('https://tatvasoft-internship-progress.onrender.com/api/Country/GetAll', { headers })
+      .subscribe(res => this.countries = res.data);
+
+    this.http.get<any>('https://tatvasoft-internship-progress.onrender.com/api/City/GetAll', { headers })
+      .subscribe(res => this.cities = res.data);
+
+    this.http.get<any>('https://tatvasoft-internship-progress.onrender.com/api/MissionTheme/GetAll', { headers })
+      .subscribe(res => this.themes = res.data);
+
+    this.http.get<any>('https://tatvasoft-internship-progress.onrender.com/api/Skill/GetAll', { headers })
+      .subscribe(res => this.allSkills = res.data);
+  }
   fetchMissions(): void {
     const token = localStorage.getItem('token');
     if (!token) {
@@ -86,6 +109,7 @@ export class MissionComponent implements OnInit {
     this.isEditMode = true;
     this.selectedMissionId = mission.id;
     this.isModalOpen = true;
+
     this.newMission = {
       missionTitle: mission.missionTitle,
       missionDescription: mission.missionDescription,
@@ -96,9 +120,9 @@ export class MissionComponent implements OnInit {
       countryId: mission.countryId,
       cityId: mission.cityId,
       missionThemeId: mission.missionThemeId,
-      skillIds: mission.skillIds ?? []  // ideal case: backend gives actual skillIds
-
+      skillIds: mission.skillIds ?? []
     };
+
   }
 
   saveMission(): void {
@@ -148,4 +172,15 @@ export class MissionComponent implements OnInit {
       skillIds: []
     };
   }
+
+  onSkillCheckboxChange(skillId: number, checked: boolean): void {
+    if (checked) {
+      if (!this.newMission.skillIds.includes(skillId)) {
+        this.newMission.skillIds.push(skillId);
+      }
+    } else {
+      this.newMission.skillIds = this.newMission.skillIds.filter(id => id !== skillId);
+    }
+  }
+
 }

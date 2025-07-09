@@ -1,61 +1,104 @@
+/* Users Wrapper - Full Width */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
 .users-wrapper {
-  padding: 20px;
-  font-family: cursive;
+  padding: 20px 0;
+  /* Removed horizontal padding */
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; */
+  width: 100%;
+  margin-left: 20px;
 }
 
 .users-header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 0 20px;
+  /* Inner padding only */
+}
+
+.users-header h2 {
+  color: #ffa500;
+  font-size: 28px;
+  margin: 0;
 }
 
 .add-btn {
   background-color: #ffa500;
   color: white;
   border: none;
-  padding: 8px 14px;
+  padding: 10px 20px;
   border-radius: 6px;
   cursor: pointer;
+  font-weight: 600;
+  transition: all 0.3s;
 }
 
+.add-btn:hover {
+  background-color: #e69500;
+}
+
+/* Users Table - Full Width */
 .users-table {
   width: 100%;
   border-collapse: collapse;
-
+  background: white;
 }
 
-.users-table th,
-.users-table td {
-  padding: 12px;
-  /* border-bottom: 1px solid #ddd; */
-  border-bottom: 1px solid #ffa500;
+.users-table th {
+  background-color: #ffa500;
+  color: white;
+  font-weight: 600;
+  padding: 15px 20px;
   text-align: left;
 }
 
-/* .edit-btn,
-.delete-btn {
-  margin-right: 8px;
-  padding: 5px 10px;
-  border-radius: 4px;
-  border: none;
-  cursor: pointer;
-} */
+.users-table td {
+  padding: 12px 20px;
+  /* border-bottom: 1px solid #ffa500; */
+  text-align: left;
+}
 
+.users-table tr:hover {
+  background-color: #fffaf0;
+}
+
+/* Icon Buttons */
 .icon-btn {
   background: none;
   border: none;
   cursor: pointer;
   color: #ffa500;
-  font-size: 16px;
-  margin-right: 8px;
+  font-size: 18px;
+  margin-right: 12px;
+  transition: all 0.2s;
+  padding: 5px;
+  border-radius: 4px;
+}
+
+.icon-btn:hover {
+  background-color: rgba(255, 165, 0, 0.1);
 }
 
 .icon-btn.delete {
-  color: #ffa500;
+  color: #e74c3c;
 }
 
+.icon-btn.delete:hover {
+  background-color: rgba(255, 165, 0, 0.1);
+}
 
+/* Modal Styles - Full Width */
 .modal-backdrop {
   position: fixed;
   top: 0;
@@ -66,91 +109,171 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 1001;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
 }
 
-.modal-box {
-  background-color: white;
-  padding: 20px 30px;
-  border-radius: 10px;
-  width: 400px;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
-}
-
-.modal-box h3 {
-  color: orange;
-  margin-bottom: 15px;
-}
-
-.modal-box input,
-.modal-box select {
-  width: 100%;
-  padding: 10px;
-  margin-bottom: 12px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-}
-
-.modal-actions {
-  display: flex;
-  justify-content: flex-end;
-  gap: 10px;
-}
-
-.btn-orange {
-  background-color: orange;
-  color: white;
-  border: none;
-  padding: 8px 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
-.btn-cancel {
-  background-color: #ccc;
-  border: none;
-  padding: 8px 14px;
-  border-radius: 5px;
-  cursor: pointer;
-}
-
+.modal-box,
 .edit-modal {
   background: white;
-  padding: 20px;
-  border-radius: 12px;
-  width: 400px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  padding: 30px;
+  border-radius: 0;
+  width: 100%;
+  height: 100vh;
+  max-width: 100%;
+  box-shadow: none;
+  font-family: 'Segoe UI', sans-serif;
+  overflow-y: auto;
 }
 
+.modal-box h3,
 .edit-modal h3 {
   color: #ff8c00;
-  margin-bottom: 10px;
+  font-size: 24px;
+  margin-bottom: 20px;
+  font-weight: 600;
+  text-align: center;
 }
 
+/* Form Elements - Clean Borderless Style */
+.modal-box input,
+.modal-box select,
 .edit-modal input,
 .edit-modal select {
   width: 100%;
-  padding: 8px;
-  margin-bottom: 10px;
-  border: 1px solid #ddd;
-  border-radius: 6px;
+  padding: 12px 0;
+  /* Removed side padding */
+  margin-bottom: 20px;
+  font-size: 15px;
+  border: none;
+  /* Removed all borders */
+  border-bottom: 2px solid #ddd;
+  /* Only bottom border */
+  background: transparent;
+  transition: all 0.3s;
+  box-shadow: none;
 }
 
+/* Focus State */
+.modal-box input:focus,
+.modal-box select:focus,
+.edit-modal input:focus,
+.edit-modal select:focus {
+  border-bottom-color: #ffa500;
+  outline: none;
+  box-shadow: none;
+}
+
+/* File Input Styling */
+input[type="file"] {
+  border: none;
+  padding: 10px 0;
+  margin: 6px 0 20px;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+}
+
+/* Form Layout Adjustment */
+.form-row {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Equal Spacing on Both Sides */
+.modal-box,
+.edit-modal {
+  padding: 30px;
+  /* Equal padding all sides */
+}
+
+/* Remove Extra Space on Left */
+.modal-box .form-group,
+.edit-modal .form-group {
+  margin-left: 0;
+  padding-left: 0;
+}
+
+/* Modal Actions */
+.modal-actions,
 .modal-buttons {
   display: flex;
   justify-content: flex-end;
-  gap: 10px;
+  gap: 12px;
+  margin-top: 20px;
 }
 
-.modal-buttons button {
-  padding: 8px 16px;
+.btn-orange,
+.modal-buttons button:not(.cancel-btn) {
+  background-color: #ffa500;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
   border: none;
   border-radius: 6px;
   cursor: pointer;
-  background-color: #ff8c00;
-  color: white;
+  transition: background-color 0.3s;
 }
 
+.btn-orange:hover,
+.modal-buttons button:not(.cancel-btn):hover {
+  background-color: #e69500;
+}
+
+.btn-cancel,
 .cancel-btn {
-  background-color: #888;
+  background-color: #e0e0e0;
+  color: #333;
+  padding: 10px 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-cancel:hover,
+.cancel-btn:hover {
+  background-color: #d0d0d0;
+}
+
+/* input[type="file"] {
+  border: none;
+  margin-top: 6px;
+  font-size: 14px;
+  background: transparent;
+  width: 100%;
+  padding: 10px 0;
+} */
+
+/* Responsive Adjustments */
+@media (min-width: 768px) {
+
+  .modal-box,
+  .edit-modal {
+    border-radius: 10px;
+    width: 500px;
+    height: auto;
+    max-height: 90vh;
+    box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  }
+}
+
+@media (max-width: 480px) {
+  .users-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .modal-actions,
+  .modal-buttons {
+    flex-direction: column;
+  }
+
+  .btn-orange,
+  .btn-cancel,
+  .modal-buttons button {
+    width: 100%;
+  }
 }

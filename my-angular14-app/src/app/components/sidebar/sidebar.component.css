@@ -10,6 +10,21 @@
   font-family: cursive;
   font-size: large;
   box-shadow: 2px 0 10px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  /* 👈 pushes logout to the bottom */
+}
+
+.top-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 .brand {
@@ -65,4 +80,31 @@ li:hover {
   :host-context(.sidebar-expanded) {
     transform: translateX(0);
   }
+}
+
+.logout-container {
+  padding-bottom: 30px; /* 👈 add this */
+}
+
+.logout-btn {
+  background-color: transparent;
+  color: white;
+  border: none;
+  padding: 12px 8px;
+  width: 100%;
+  text-align: left;
+  border-radius: 6px;
+  cursor: pointer;
+  font-family: cursive;
+  font-size: x-large;
+}
+
+
+.logout-btn:hover {
+  background-color: #ff8c00;
+}
+
+li i,
+.logout-btn i {
+  margin-right: 10px;
 }
