@@ -17,7 +17,7 @@ namespace Mission.Api.Controllers
             _context = context;
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpGet("GetAll")]
         public IActionResult GetAllSkills(bool onlyActive = false)
         {
@@ -28,7 +28,7 @@ namespace Mission.Api.Controllers
             return Ok(new { success = true, data = skills });
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpPost("Add")]
         public IActionResult AddSkill([FromBody] AddSkillDto dto)
         {
@@ -49,7 +49,7 @@ namespace Mission.Api.Controllers
             return Ok(new { success = true, message = "Skill added successfully." });
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpPut("Update")]
         public IActionResult UpdateSkill([FromBody] UpdateSkillDto dto)
         {
@@ -64,7 +64,7 @@ namespace Mission.Api.Controllers
             return Ok(new { success = true, message = "Skill updated successfully." });
         }
 
-        //[Authorize(Roles = "admin")]
+        [Authorize(Roles = "admin")]
         [HttpDelete("Delete/{id}")]
         public IActionResult DeleteSkill(int id)
         {
