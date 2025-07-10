@@ -12,7 +12,8 @@ import { MissionComponent } from './components/mission/mission.component';
 import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
 import { ThemesComponent } from './components/themes/themes.component';
-import { SkillsComponent } from './components/skills/skills.component'; // Uncomment if you need to make HTTP requests}
+import { SkillsComponent } from './components/skills/skills.component';
+import { MissionApplicationsComponent } from './components/mission-applications/mission-applications.component'; // Uncomment if you need to make HTTP requests}
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SkillsComponent } from './components/skills/skills.component'; // Uncom
     UserloginComponent,
     UserhomepageComponent,
     ThemesComponent,
-    SkillsComponent
+    SkillsComponent,
+    MissionApplicationsComponent
   ],
   imports: [
     BrowserModule,

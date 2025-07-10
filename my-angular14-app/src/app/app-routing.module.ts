@@ -11,6 +11,7 @@ import { UserloginComponent } from './components/userlogin/userlogin.component';
 import { UserhomepageComponent } from './components/userhomepage/userhomepage.component';
 import { ThemesComponent } from './components/themes/themes.component';
 import { SkillsComponent } from './components/skills/skills.component';
+import { MissionApplicationsComponent } from './components/mission-applications/mission-applications.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'login', pathMatch: 'full' },
@@ -22,7 +23,8 @@ const routes: Routes = [
       { path: 'users', component: UsersComponent },
       { path: 'mission', component: MissionComponent },
       { path: 'themes', component: ThemesComponent },
-      { path: 'skills', component: SkillsComponent }]
+      { path: 'skills', component: SkillsComponent },
+      { path: 'mission-applications', component: MissionApplicationsComponent }]
   },
   { path: 'sidebar', component: SidebarComponent },
   {
