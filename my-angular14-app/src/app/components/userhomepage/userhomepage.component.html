@@ -26,9 +26,9 @@
 
       <div class="info-row">
         <span>👥 {{ mission.totalSeats }} Seats left</span>
-        <!-- <span>🕒 {{ mission.deadline | date }} Deadline</span> -->
-        <span>🕒 Deadline</span>
+        <span>🕒 {{ getDeadline(mission.startDate) | date }} Deadline</span>
       </div>
+
 
       <button class="apply-btn" [disabled]="mission.status === 'APPLIED' || mission.status === 'CLOSED'">
         {{ mission.status === 'APPLIED' ? 'Applied' : 'Apply' }} →

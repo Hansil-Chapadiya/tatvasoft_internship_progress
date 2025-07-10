@@ -25,6 +25,12 @@ export class UserhomepageComponent implements OnInit {
 
   constructor(private http: HttpClient) { }
 
+  getDeadline(startDate: string): Date {
+    const start = new Date(startDate);
+    start.setDate(start.getDate() - 10);
+    return start;
+  }
+
   ngOnInit(): void {
     const token = localStorage.getItem('token');
     if (!token) {
