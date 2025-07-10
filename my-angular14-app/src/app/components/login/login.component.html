@@ -1,6 +1,15 @@
-<form (ngSubmit)="login()">
-    <div class="container">
-        <div class="login-container">
+<div class="login-wrapper">
+    <!-- Left side with image -->
+    <div class="login-image">
+        <div class="welcome-message">
+            <h2>Welcome Back!</h2>
+            <p>Manage your missions and applications with our admin portal</p>
+        </div>
+    </div>
+
+    <!-- Right side with original login form -->
+    <div class="login-form-container">
+        <form (ngSubmit)="login()" class="login-form">
             <div class="login-title">Admin Login</div>
 
             <label for="email">Email</label>
@@ -10,7 +19,7 @@
             <input [(ngModel)]="password" name="password" type="password" id="password" required />
 
             <button type="submit">Login</button>
-            <p *ngIf="errorMessage">{{ errorMessage }}</p>
-        </div>
+            <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+        </form>
     </div>
-</form>
+</div>
