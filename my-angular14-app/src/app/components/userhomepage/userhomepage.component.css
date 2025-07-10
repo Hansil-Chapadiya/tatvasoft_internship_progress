@@ -131,6 +131,25 @@ h4 {
   margin-bottom: 15px;
 }
 
+.view-btn {
+  width: 100%;
+  margin-top: 10px;
+  padding: 12px;
+  background-color: #f0f0f0;
+  color: #333;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.2s;
+}
+
+
+.view-btn:hover {
+  background-color: #e0e0e0;
+}
+
+
 .apply-btn {
   width: 100%;
   margin-top: 10px;
@@ -169,4 +188,140 @@ h4 {
   .card-container {
     justify-content: center;
   }
+}
+
+
+/* Modal Styles - Full Width */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  backdrop-filter: blur(2px);
+}
+
+.modal-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 8px;
+  width: 90%;
+  max-width: 500px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+  animation: modalFadeIn 0.3s ease-out;
+}
+
+@keyframes modalFadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modal-box h3 {
+  color: #ff8c00;
+  font-size: 1.5rem;
+  margin-bottom: 1.5rem;
+  font-weight: 600;
+  text-align: center;
+}
+
+.modal-box p {
+  margin-bottom: 2rem;
+  text-align: center;
+  color: #555;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.modal-actions button {
+  padding: 0.75rem 1.5rem;
+  font-weight: 600;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.modal-actions button:first-child {
+  background-color: #ffa500;
+  color: white;
+}
+
+.modal-actions button:first-child:hover {
+  background-color: #e69500;
+}
+
+.modal-actions button:last-child {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.modal-actions button:last-child:hover {
+  background-color: #e0e0e0;
+}
+
+/* Responsive adjustments */
+@media (max-width: 480px) {
+  .modal-box {
+    width: 95%;
+    padding: 1.5rem;
+  }
+
+  .modal-actions {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+
+  .modal-actions button {
+    width: 100%;
+  }
+}
+
+.application-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 16px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 12px;
+}
+
+.application-card img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-right: 16px;
+}
+
+.app-details {
+  flex: 1;
+}
+
+.pending {
+  color: #ff9800;
+}
+
+.approved {
+  color: #4caf50;
+}
+
+.rejected {
+  color: #f44336;
 }

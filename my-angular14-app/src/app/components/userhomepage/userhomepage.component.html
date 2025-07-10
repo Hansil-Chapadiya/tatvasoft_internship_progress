@@ -13,9 +13,6 @@
 
   <div class="card-container">
     <div class="mission-card" *ngFor="let mission of missions">
-      <!-- <div class="status-tag" [ngClass]="mission.status.toLowerCase()">
-        {{ mission.status }}
-      </div> -->
       <img [src]="mission.missionImage || 'assets/placeholder.jpg'" alt="Mission image" />
       <h4>{{ mission.missionTitle }}</h4>
       <p class="desc">{{ mission.missionDescription }}</p>
@@ -29,10 +26,57 @@
         <span>🕒 {{ getDeadline(mission.startDate) | date }} Deadline</span>
       </div>
 
-
-      <button class="apply-btn" [disabled]="mission.status === 'APPLIED' || mission.status === 'CLOSED'">
+      <button class="apply-btn" [disabled]="mission.status === 'APPLIED' || mission.status === 'CLOSED'"
+        (click)="confirmApply(mission.id, mission.missionTitle)">
         {{ mission.status === 'APPLIED' ? 'Applied' : 'Apply' }} →
       </button>
+      <button class="view-btn" (click)="viewMyApplications()">
+        View Details
+      </button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="showConfirmationModal" class="modal-backdrop">
+  <div class="modal-box">
+    <h3>Are you sure?</h3>
+    <p>Do you want to apply for "<strong>{{ selectedMissionTitle }}</strong>"?</p>
+
+    <div class="modal-actions">
+      <button (click)="applyForMission(selectedMissionId!)">Yes, Apply</button>
+      <button (click)="closeModal()">Cancel</button>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="showApplicationModal" class="modal-backdrop">
+  <div class="modal-box app-list-modal">
+    <h2>My Applications</h2>
+
+    <div *ngIf="userApplications.length > 0; else noApps">
+      <div *ngFor="let app of userApplications" class="application-card">
+        <div class="app-details">
+          <h4>{{ app.missionTitle }}</h4>
+          <p>Date: {{ app.applicationDate | date }}</p>
+          <span>Status:
+            <strong [ngClass]="{
+              'pending': app.status === 'Pending',
+              'approved': app.status === 'Approved',
+              'rejected': app.status === 'Rejected'
+            }">
+              {{ app.status }}
+            </strong>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <ng-template #noApps>
+      <p>You haven't applied to any missions yet.</p>
+    </ng-template>
+
+    <div class="modal-actions">
+      <button (click)="showApplicationModal = false">Close</button>
     </div>
   </div>
 </div>
