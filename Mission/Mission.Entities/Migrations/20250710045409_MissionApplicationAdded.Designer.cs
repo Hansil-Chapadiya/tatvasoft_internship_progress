@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Mission.Entities.context;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
@@ -11,9 +12,11 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 namespace Mission.Entities.Migrations
 {
     [DbContext(typeof(MissionDbContext))]
-    partial class MissionDbContextModelSnapshot : ModelSnapshot
+    [Migration("20250710045409_MissionApplicationAdded")]
+    partial class MissionApplicationAdded
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -127,36 +130,6 @@ namespace Mission.Entities.Migrations
                     b.HasIndex("MissionThemeId");
 
                     b.ToTable("Mission");
-                });
-
-            modelBuilder.Entity("Mission.Entities.Entities.MissionApplication", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("integer");
-
-                    NpgsqlPropertyBuilderExtensions.UseIdentityByDefaultColumn(b.Property<int>("Id"));
-
-                    b.Property<DateTime>("ApplicationDate")
-                        .HasColumnType("timestamp with time zone");
-
-                    b.Property<int>("MissionId")
-                        .HasColumnType("integer");
-
-                    b.Property<string>("Status")
-                        .IsRequired()
-                        .HasColumnType("text");
-
-                    b.Property<int>("UserId")
-                        .HasColumnType("integer");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("MissionId");
-
-                    b.HasIndex("UserId");
-
-                    b.ToTable("MissionApplications");
                 });
 
             modelBuilder.Entity("Mission.Entities.Entities.MissionSkill", b =>
@@ -332,25 +305,6 @@ namespace Mission.Entities.Migrations
                     b.Navigation("Country");
 
                     b.Navigation("Theme");
-                });
-
-            modelBuilder.Entity("Mission.Entities.Entities.MissionApplication", b =>
-                {
-                    b.HasOne("Mission.Entities.Entities.Mission", "Mission")
-                        .WithMany()
-                        .HasForeignKey("MissionId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Mission.Entities.Entities.User", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Mission");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Mission.Entities.Entities.MissionSkill", b =>
