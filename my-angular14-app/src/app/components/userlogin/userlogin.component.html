@@ -1,6 +1,15 @@
-<form (ngSubmit)="userLogin()">
-    <div class="container">
-        <div class="login-container">
+<div class="login-wrapper">
+    <!-- Left side with image -->
+    <div class="login-image">
+        <div class="welcome-message">
+            <h2>Welcome Back!</h2>
+            <p>Manage your missions and applications with our admin portal</p>
+        </div>
+    </div>
+
+    <!-- Right side with original login form -->
+    <div class="login-form-container">
+        <form (ngSubmit)="userLogin()" class="login-form">
             <div class="login-title">User Login</div>
 
             <label for="email">Email</label>
@@ -9,8 +18,19 @@
             <label for="password">Password</label>
             <input [(ngModel)]="password" name="password" type="password" id="password" required />
 
+            <div class="form-links">
+                <button type="button" class="forgot-password" (click)="showAlert('forgot')">Forgot Password?</button>
+                <button type="button" class="create-account" (click)="showAlert('create')">Create New Account</button>
+            </div>
+
+
             <button type="submit">Login</button>
-            <p *ngIf="errorMessage">{{ errorMessage }}</p>
-        </div>
+            <p *ngIf="errorMessage" class="error-message">{{ errorMessage }}</p>
+        </form>
     </div>
-</form>
+    <div *ngIf="alertMessage" class="custom-alert">
+        <span class="alert-text">{{ alertMessage }}</span>
+        <button class="alert-close" (click)="closeAlert()">✖</button>
+    </div>
+
+</div>

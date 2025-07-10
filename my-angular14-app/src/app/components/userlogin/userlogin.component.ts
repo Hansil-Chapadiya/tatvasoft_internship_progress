@@ -73,4 +73,20 @@ export class UserloginComponent implements OnInit {
       }
     }
   }
+  alertMessage: string = '';
+
+  showAlert(type: 'create' | 'forgot'): void {
+    if (type === 'create') {
+      this.alertMessage = '🚫 Restricted By Admin';
+    } else if (type === 'forgot') {
+      this.alertMessage = '🔐 Restricted By Admin';
+    }
+
+    setTimeout(() => this.alertMessage = '', 5000); // Auto dismiss
+  }
+
+  closeAlert(): void {
+    this.alertMessage = '';
+  }
+
 }
