@@ -15,7 +15,7 @@
         <tbody>
             <tr *ngFor="let skill of skills">
                 <td>{{ skill.name }}</td>
-                <td>{{ skill.isActive }}</td>
+                <td>{{ skill.isActive ? "Active" : "Inactive" }}</td>
                 <td>
                     <button (click)="editSkill(skill)" class="icon-btn">
                         <i class="fas fa-pen"></i>

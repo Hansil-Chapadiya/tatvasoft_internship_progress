@@ -1,1 +1,43 @@
-<p>mission-applications works!</p>
+<!-- Existing Mission Table -->
+<div class="mission-wrapper">
+    <div class="mission-header">
+        <h2>Missions Applications</h2>
+    </div>
+    <table class="mission-table">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Mission ID</th>
+                <th>User ID</th>
+                <th>User Name</th>
+                <th>Application Date</th>
+                <th>Status</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let mission of missionApplications">
+                <td>{{ mission.missionTitle }}</td>
+                <td>{{ mission.missionId }}</td>
+                <td>{{ mission.userId }}</td>
+                <td>{{ mission.userName }}</td>
+                <td>{{ mission.applicationDate | date : 'dd MMM yyyy'}}</td>
+                <td>{{ mission.status}}</td>
+                <td>
+                    <button class="icon-btn approve" (click)="approveMissison(mission.applicationId)">
+                        <i class="fas fa-check-circle"></i>
+                    </button>
+                    <button class="icon-btn reject" (click)="rejectMission(mission.applicationId)">
+                        <i class="fas fa-times-circle"></i>
+                    </button>
+                </td>
+
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div *ngIf="alertMessage" class="custom-alert">
+    <span class="alert-text">{{ alertMessage }}</span>
+    <button class="alert-close" (click)="closeAlert()">✖</button>
+</div>
