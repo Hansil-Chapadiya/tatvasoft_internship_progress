@@ -29,8 +29,10 @@
         </form>
     </div>
     <div *ngIf="alertMessage" class="custom-alert">
-        <span class="alert-text">{{ alertMessage }}</span>
-        <button class="alert-close" (click)="closeAlert()">✖</button>
+        <div class="alert-content">
+            <span class="alert-text">{{ alertMessage }}</span>
+            <button class="alert-close" (click)="closeAlert()">✖</button>
+        </div>
     </div>
 
 </div>
